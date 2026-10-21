@@ -1,0 +1,156 @@
+{
+  "store": {
+    "name": "Reflection Elite",
+    "domain": "reflectionelite.com",
+    "base_country": "IN",
+    "base_state": "GA",
+    "currency": "INR",
+    "currency_symbol": "₹",
+    "currency_position": "left",
+    "thousand_separator": ",",
+    "decimal_separator": ".",
+    "decimals": 2
+  },
+  "expected_products_count": 9,
+  "expected_simple_count": 7,
+  "expected_variable_count": 2,
+  "expected_variation_count": 4,
+  "expected_categories_count": 5,
+  "expected_pages_count": 2,
+  "expected_images_count": 27,
+  "categories": [
+    { "name": "Venetian", "slug": "venetian-mirror", "description": "Handcrafted luxury Venetian glass mirrors" },
+    { "name": "Frame Mirror", "slug": "frame-mirror", "description": "Artisan framed mirrors" },
+    { "name": "LED Mirror", "slug": "led-mirror", "description": "Modern illuminated LED mirrors" },
+    { "name": "Vanished Murano Mirror", "slug": "vanished-murano-mirror", "description": "Exclusive Murano glass heritage designs" },
+    { "name": "Diy glass", "slug": "diy-glass-mirror", "description": "Mosaic and DIY glass art pieces" }
+  ],
+  "products": [
+    {
+      "id": "ref-antique-venetian-cushion",
+      "name": "Antique venetian cushion",
+      "sku": "REF-ANTIQUE-VENETIAN-CUSHION",
+      "type": "simple",
+      "price": 81500.00,
+      "category": "Venetian",
+      "images_count": 6,
+      "in_stock": true,
+      "fragile": true,
+      "high_value": true
+    },
+    {
+      "id": "ref-customised-mirror",
+      "name": "Customised Mirror",
+      "sku": "REF-CUSTOMISED-MIRROR",
+      "type": "simple",
+      "price": 100.00,
+      "category": "Uncategorized",
+      "images_count": 5,
+      "in_stock": true,
+      "fragile": true,
+      "high_value": false
+    },
+    {
+      "id": "ref-high-strength-metal-materials",
+      "name": "High Strength Metal Materials",
+      "sku": "REF-HIGH-STRENGTH-METAL-MATERIALS",
+      "type": "simple",
+      "price": 0.00,
+      "category": "Uncategorized",
+      "images_count": 1,
+      "in_stock": true,
+      "fragile": false,
+      "high_value": false
+    },
+    {
+      "id": "ref-modern-victorian",
+      "name": "Modern victorian",
+      "sku": "REF-MODERN-VICTORIAN",
+      "type": "variable",
+      "price_min": 58787.00,
+      "price_max": 58787.00,
+      "category": "Venetian",
+      "images_count": 4,
+      "in_stock": true,
+      "attributes": [
+        { "name": "Color", "options": ["Silver", "Geometric"] }
+      ],
+      "variations": [
+        { "sku": "REF-MODERN-VICTORIAN-VAR-1", "title": "Modern victorian - Silver", "price": 58787.00, "attributes": { "Color": "Silver" } },
+        { "sku": "REF-MODERN-VICTORIAN-VAR-2", "title": "Modern victorian - Geometric", "price": 58787.00, "attributes": { "Color": "Geometric" } }
+      ]
+    },
+    {
+      "id": "ref-mosaic-mirror-art",
+      "name": "Mosaic mirror art",
+      "sku": "REF-MOSAIC-MIRROR-ART",
+      "type": "variable",
+      "price_min": 2500.00,
+      "price_max": 7500.00,
+      "category": "Diy glass",
+      "images_count": 3,
+      "in_stock": true,
+      "attributes": [
+        { "name": "Size", "options": ["24\" x 30\"", "42\" x 48\""] },
+        { "name": "Frame style", "options": ["Poster"] },
+        { "name": "Artwork frame material", "options": ["Wood"] }
+      ],
+      "variations": [
+        { "sku": "REF-MOSAIC-MIRROR-ART-VAR-1", "title": "Mosaic mirror art - 24\" x 30\" / Poster / Wood", "price": 2500.00, "attributes": { "Size": "24\" x 30\"", "Frame style": "Poster", "Artwork frame material": "Wood" } },
+        { "sku": "REF-MOSAIC-MIRROR-ART-VAR-2", "title": "Mosaic mirror art - 42\" x 48\" / Poster / Wood", "price": 7500.00, "attributes": { "Size": "42\" x 48\"", "Frame style": "Poster", "Artwork frame material": "Wood" } }
+      ]
+    },
+    {
+      "id": "ref-partial-payment",
+      "name": "Partial Payment",
+      "sku": "REF-PARTIAL-PAYMENT",
+      "type": "simple",
+      "price": 0.00,
+      "category": "Uncategorized",
+      "images_count": 0,
+      "in_stock": true,
+      "fragile": false,
+      "high_value": false
+    },
+    {
+      "id": "ref-premium-upholstered-frame",
+      "name": "Premium Upholstered Frame",
+      "sku": "REF-PREMIUM-UPHOLSTERED-FRAME",
+      "type": "simple",
+      "price": 0.00,
+      "category": "Uncategorized",
+      "images_count": 1,
+      "in_stock": true,
+      "fragile": false,
+      "high_value": false
+    },
+    {
+      "id": "ref-rococo-floral",
+      "name": "Rococo floral",
+      "sku": "REF-VENETIAN-MIRROR",
+      "type": "simple",
+      "price": 14000.00,
+      "category": "Venetian",
+      "images_count": 3,
+      "in_stock": true,
+      "fragile": true,
+      "high_value": false
+    },
+    {
+      "id": "ref-silver-crown-framed",
+      "name": "Silver Crown framed",
+      "sku": "REF-SILVER-CROWN-FRAMED",
+      "type": "simple",
+      "price": 35900.00,
+      "category": "Venetian",
+      "images_count": 4,
+      "in_stock": true,
+      "fragile": true,
+      "high_value": true
+    }
+  ],
+  "pages": [
+    { "title": "About Us", "slug": "about-us" },
+    { "title": "Contact", "slug": "contact" }
+  ]
+}

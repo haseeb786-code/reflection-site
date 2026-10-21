@@ -1,0 +1,19 @@
+Source URL (Shopify),Target URL (WooCommerce),Status Code
+/products/antique-venetian-cushion,/product/antique-venetian-cushion/,301
+/products/customised-mirror,/product/customised-mirror/,301
+/products/high-strength-metal-materials,/product/high-strength-metal-materials/,301
+/products/modern-victorian,/product/modern-victorian/,301
+/products/mosaic-mirror-art,/product/mosaic-mirror-art/,301
+/products/partial-payment,/product/partial-payment/,301
+/products/premium-upholstered-frame,/product/premium-upholstered-frame/,301
+/products/venetian-mirror,/product/rococo-floral/,301
+/products/rococo-floral,/product/rococo-floral/,301
+/product/venetian-mirror/,/product/rococo-floral/,301
+/products/silver-crown-framed,/product/silver-crown-framed/,301
+/collections/diy-glass-mirror,/product-category/diy-glass-mirror/,301
+/collections/frame-mirror,/product-category/frame-mirror/,301
+/collections/led-mirror,/product-category/led-mirror/,301
+/collections/vanished-murano-mirror,/product-category/vanished-murano-mirror/,301
+/collections/venetian-mirror,/product-category/venetian-mirror/,301
+/pages/about-us,/about-us/,301
+/pages/contact,/contact/,301

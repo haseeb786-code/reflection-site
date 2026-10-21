@@ -1,0 +1,33 @@
+# ==============================================================================
+# Reflection Elite: Shopify to WooCommerce 301 Permanent Redirects (.htaccess)
+# ==============================================================================
+# Place these rules at the top of your WordPress .htaccess file before # BEGIN WordPress
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# 1. Product Redirects (/products/ -> /product/)
+Redirect 301 /products/antique-venetian-cushion /product/antique-venetian-cushion/
+Redirect 301 /products/customised-mirror /product/customised-mirror/
+Redirect 301 /products/high-strength-metal-materials /product/high-strength-metal-materials/
+Redirect 301 /products/modern-victorian /product/modern-victorian/
+Redirect 301 /products/mosaic-mirror-art /product/mosaic-mirror-art/
+Redirect 301 /products/partial-payment /product/partial-payment/
+Redirect 301 /products/premium-upholstered-frame /product/premium-upholstered-frame/
+Redirect 301 /products/venetian-mirror /product/rococo-floral/
+Redirect 301 /product/venetian-mirror/ /product/rococo-floral/
+Redirect 301 /products/silver-crown-framed /product/silver-crown-framed/
+
+# 2. Collection Redirects (/collections/ -> /product-category/)
+Redirect 301 /collections/diy-glass-mirror /product-category/diy-glass-mirror/
+Redirect 301 /collections/frame-mirror /product-category/frame-mirror/
+Redirect 301 /collections/led-mirror /product-category/led-mirror/
+Redirect 301 /collections/vanished-murano-mirror /product-category/vanished-murano-mirror/
+Redirect 301 /collections/venetian-mirror /product-category/venetian-mirror/
+
+# 3. Content Page Redirects (/pages/ -> root pages)
+Redirect 301 /pages/about-us /about-us/
+Redirect 301 /pages/contact /contact/
+
+</IfModule>

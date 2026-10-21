@@ -1,0 +1,53 @@
+{
+  "order_lifecycle": {
+    "valid_transitions": [
+      { "from": "pending", "to": "processing", "trigger": "payment.captured or cod_order_placed" },
+      { "from": "processing", "to": "completed", "trigger": "crated_shipment_delivered" },
+      { "from": "processing", "to": "refunded", "trigger": "merchant_refund" },
+      { "from": "pending", "to": "cancelled", "trigger": "payment_failure_or_abandon" }
+    ],
+    "invalid_transitions": [
+      { "from": "completed", "to": "pending", "allowed": false },
+      { "from": "refunded", "to": "processing", "allowed": false }
+    ]
+  },
+  "customer_receipt_schema": {
+    "required_fields": [
+      "store_name",
+      "order_number",
+      "order_date",
+      "currency",
+      "billing_address",
+      "shipping_address",
+      "line_items",
+      "subtotal",
+      "shipping_total",
+      "total",
+      "payment_method_title",
+      "fragile_transit_notice"
+    ],
+    "expected_store_name": "Reflection Elite",
+    "expected_currency": "INR",
+    "expected_currency_symbol": "₹"
+  },
+  "admin_notification_schema": {
+    "required_recipients": ["info@reflectionelite.com"],
+    "required_fields": [
+      "order_id",
+      "customer_name",
+      "customer_email",
+      "customer_phone",
+      "delivery_pincode",
+      "order_total",
+      "payment_gateway",
+      "action_url"
+    ]
+  },
+  "compliance_policy_pages": [
+    { "slug": "privacy-policy", "title": "Privacy Policy", "source_template": "templates/privacy_policy.md" },
+    { "slug": "refund-and-cancellation-policy", "title": "Refund and Cancellation Policy", "source_template": "templates/refund_and_cancellation_policy.md" },
+    { "slug": "shipping-and-delivery-policy", "title": "Shipping and Delivery Policy", "source_template": "templates/shipping_and_delivery_policy.md" },
+    { "slug": "terms-and-conditions", "title": "Terms and Conditions", "source_template": "templates/terms_and_conditions.md" },
+    { "slug": "contact", "title": "Contact", "source_template": "ORIGINAL_REQUEST.md" }
+  ]
+}

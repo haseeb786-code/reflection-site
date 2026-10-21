@@ -1,0 +1,93 @@
+export const catalogProducts = [
+      {
+        id: 17,
+        slug: 'antique-venetian-cushion',
+        title: 'ANTIQUE VENETIAN CUSHION',
+        price: '₹81,500',
+        priceNum: 81500,
+        category: 'Venetian Mirror',
+        filterTag: 'venetian',
+        img: 'https://reflectionelite.com/wp-content/uploads/2026/10/1771694577552.jpg',
+        btnText: 'VIEW DETAILS',
+        btnType: 'view',
+        link: '/product/antique-venetian-cushion/'
+      },
+      {
+        id: 30,
+        slug: 'modern-victorian',
+        title: 'MODERN VICTORIAN',
+        price: '₹58,787',
+        priceNum: 58787,
+        category: 'Venetian Mirror',
+        filterTag: 'venetian',
+        img: 'https://reflectionelite.com/wp-content/uploads/2026/10/20260222_002716-scaled.jpg',
+        btnText: 'VIEW DETAILS',
+        btnType: 'view',
+        link: '/product/modern-victorian/'
+      },
+      {
+        id: 51,
+        slug: 'silver-crown-framed',
+        title: 'SILVER CROWN FRAMED',
+        price: '₹35,900',
+        priceNum: 35900,
+        category: 'Venetian Mirror',
+        filterTag: 'venetian',
+        img: 'https://reflectionelite.com/wp-content/uploads/2026/10/20260221_235950-scaled.jpg',
+        btnText: 'VIEW DETAILS',
+        btnType: 'view',
+        link: '/product/silver-crown-framed/'
+      },
+      {
+        id: 45,
+        slug: 'rococo-floral',
+        title: 'ROCOCO FLORAL',
+        price: '₹14,000',
+        priceNum: 14000,
+        category: 'Venetian Mirror',
+        filterTag: 'venetian',
+        img: 'https://reflectionelite.com/wp-content/uploads/2026/10/20260222_092621-scaled.jpg',
+        btnText: 'VIEW DETAILS',
+        btnType: 'view',
+        link: '/product/rococo-floral/'
+      },
+      {
+        id: 36,
+        slug: 'mosaic-mirror-art',
+        title: 'MOSAIC MIRROR ART',
+        price: '₹2,500 – ₹7,500',
+        priceNum: 2500,
+        category: 'Contemporary',
+        filterTag: 'contemporary',
+        img: 'https://reflectionelite.com/wp-content/uploads/2026/10/20260305_220825.jpg',
+        btnText: 'VIEW DETAILS',
+        btnType: 'view',
+        link: '/product/mosaic-mirror-art/'
+      },
+      {
+        id: 23,
+        slug: 'customised-mirror',
+        title: 'CUSTOMISED MIRROR',
+        price: '₹100',
+        priceNum: 100,
+        category: 'Custom',
+        filterTag: 'custom',
+        img: 'https://reflectionelite.com/wp-content/uploads/2026/10/WhatsAppImage2026-07-13at5.15.04PM.jpg',
+        btnText: 'VIEW DETAILS',
+        btnType: 'view',
+        link: '/product/customised-mirror/'
+      },
+      {
+        id: 41,
+        slug: 'premium-upholstered-frame',
+        title: 'PREMIUM UPHOLSTERED FRAME',
+        price: 'Price on Request',
+        priceNum: 0,
+        category: 'Statement Piece',
+        filterTag: 'statement',
+        img: 'https://reflectionelite.com/wp-content/uploads/2026/10/WhatsAppImage2026-09-18at3.57.23PM.jpg',
+        btnText: 'VIEW DETAILS',
+        btnType: 'view',
+        link: '/product/premium-upholstered-frame/'
+      }
+    ];

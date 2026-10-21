@@ -1,0 +1,28 @@
+{
+  "rules": [
+    { "source": "/products/antique-venetian-cushion", "target": "/product/antique-venetian-cushion/", "code": 301, "type": "product" },
+    { "source": "/products/customised-mirror", "target": "/product/customised-mirror/", "code": 301, "type": "product" },
+    { "source": "/products/high-strength-metal-materials", "target": "/product/high-strength-metal-materials/", "code": 301, "type": "product" },
+    { "source": "/products/modern-victorian", "target": "/product/modern-victorian/", "code": 301, "type": "product" },
+    { "source": "/products/mosaic-mirror-art", "target": "/product/mosaic-mirror-art/", "code": 301, "type": "product" },
+    { "source": "/products/partial-payment", "target": "/product/partial-payment/", "code": 301, "type": "product" },
+    { "source": "/products/premium-upholstered-frame", "target": "/product/premium-upholstered-frame/", "code": 301, "type": "product" },
+    { "source": "/products/venetian-mirror", "target": "/product/rococo-floral/", "code": 301, "type": "alias" },
+    { "source": "/products/rococo-floral", "target": "/product/rococo-floral/", "code": 301, "type": "product" },
+    { "source": "/product/venetian-mirror/", "target": "/product/rococo-floral/", "code": 301, "type": "alias" },
+    { "source": "/products/silver-crown-framed", "target": "/product/silver-crown-framed/", "code": 301, "type": "product" },
+    { "source": "/collections/diy-glass-mirror", "target": "/product-category/diy-glass-mirror/", "code": 301, "type": "collection" },
+    { "source": "/collections/frame-mirror", "target": "/product-category/frame-mirror/", "code": 301, "type": "collection" },
+    { "source": "/collections/led-mirror", "target": "/product-category/led-mirror/", "code": 301, "type": "collection" },
+    { "source": "/collections/vanished-murano-mirror", "target": "/product-category/vanished-murano-mirror/", "code": 301, "type": "collection" },
+    { "source": "/collections/venetian-mirror", "target": "/product-category/venetian-mirror/", "code": 301, "type": "collection" },
+    { "source": "/pages/about-us", "target": "/about-us/", "code": 301, "type": "page" },
+    { "source": "/pages/contact", "target": "/contact/", "code": 301, "type": "page" }
+  ],
+  "edge_cases": [
+    { "source": "/products/antique-venetian-cushion/", "target": "/product/antique-venetian-cushion/", "note": "Trailing slash on source" },
+    { "source": "/products/modern-victorian?variant=58787&ref=instagram", "target": "/product/modern-victorian/?variant=58787&ref=instagram", "note": "Query parameter preservation" },
+    { "source": "/products/venetian-mirror?utm_source=google", "target": "/product/rococo-floral/?utm_source=google", "note": "Alias with tracking params" },
+    { "source": "/Products/Antique-Venetian-Cushion", "target": "/product/antique-venetian-cushion/", "note": "Mixed case normalization" }
+  ]
+}

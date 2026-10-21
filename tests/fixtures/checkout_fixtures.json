@@ -1,0 +1,84 @@
+{
+  "pin_validation": {
+    "regex": "^[1-9][0-9]{5}$",
+    "description": "Standard 6-digit Indian Postal Identification Number (PIN)",
+    "valid_cases": [
+      { "code": "110001", "city": "New Delhi", "state": "Delhi" },
+      { "code": "400001", "city": "Mumbai", "state": "Maharashtra" },
+      { "code": "560001", "city": "Bangalore", "state": "Karnataka" },
+      { "code": "600001", "city": "Chennai", "state": "Tamil Nadu" },
+      { "code": "700001", "city": "Kolkata", "state": "West Bengal" },
+      { "code": "403001", "city": "Panaji", "state": "Goa" },
+      { "code": "100000", "city": "Boundary Minimum", "state": "Valid Lower Bound" },
+      { "code": "999999", "city": "Boundary Maximum", "state": "Valid Upper Bound" },
+      { "code": "302001", "city": "Jaipur", "state": "Rajasthan" },
+      { "code": "500001", "city": "Hyderabad", "state": "Telangana" }
+    ],
+    "invalid_cases": [
+      { "code": "012345", "reason": "Leading zero is invalid for Indian PIN" },
+      { "code": "11000", "reason": "Too short (5 digits)" },
+      { "code": "1100001", "reason": "Too long (7 digits)" },
+      { "code": "", "reason": "Empty string" },
+      { "code": "   ", "reason": "Whitespace only" },
+      { "code": "110 01", "reason": "Internal space" },
+      { "code": "11000A", "reason": "Alphanumeric suffix" },
+      { "code": "DELHI1", "reason": "Alphabetic string" },
+      { "code": "110-001", "reason": "Contains hyphen" },
+      { "code": "!@#$%", "reason": "Special characters" },
+      { "code": "-11000", "reason": "Negative integer" },
+      { "code": "११०००१", "reason": "Devanagari Unicode numerals" },
+      { "code": "<script>", "reason": "XSS injection attempt" },
+      { "code": "' OR 1=1 --", "reason": "SQL injection attempt" }
+    ]
+  },
+  "phone_validation": {
+    "regex": "^[6-9][0-9]{9}$",
+    "description": "Standard 10-digit Indian Mobile Phone Number starting with 6, 7, 8, or 9",
+    "valid_cases": [
+      { "phone": "9876543210", "provider": "Valid starting with 9" },
+      { "phone": "8123456789", "provider": "Valid starting with 8" },
+      { "phone": "7012345678", "provider": "Valid starting with 7" },
+      { "phone": "6234567890", "provider": "Valid starting with 6" },
+      { "phone": "9999999999", "provider": "Upper bound 9s" },
+      { "phone": "6000000000", "provider": "Lower bound 6s" }
+    ],
+    "invalid_cases": [
+      { "phone": "5555555555", "reason": "Starts with 5 (invalid mobile series in India)" },
+      { "phone": "1234567890", "reason": "Starts with 1 (fixed-line or invalid)" },
+      { "phone": "0987654321", "reason": "Leading 0 not stripped" },
+      { "phone": "987654321", "reason": "Too short (9 digits)" },
+      { "phone": "98765432100", "reason": "Too long (11 digits)" },
+      { "phone": "+919876543210", "reason": "Country code prefix unstripped" },
+      { "phone": "98765-43210", "reason": "Contains hyphens" },
+      { "phone": "98765 43210", "reason": "Contains spaces" },
+      { "phone": "98765CALLM", "reason": "Alphanumeric characters" },
+      { "phone": "", "reason": "Empty string" },
+      { "phone": "abcdefghij", "reason": "All alpha characters" },
+      { "phone": "987654321@", "reason": "Trailing punctuation" }
+    ]
+  },
+  "sample_addresses": [
+    {
+      "first_name": "Aarav",
+      "last_name": "Sharma",
+      "address_1": "Flat 402, Royal Palms, MG Road",
+      "city": "Panaji",
+      "state": "GA",
+      "postcode": "403001",
+      "country": "IN",
+      "email": "aarav.sharma@example.com",
+      "phone": "9820012345"
+    },
+    {
+      "first_name": "Priya",
+      "last_name": "Nair",
+      "address_1": "12B, Indiranagar 100ft Road",
+      "city": "Bangalore",
+      "state": "KA",
+      "postcode": "560038",
+      "country": "IN",
+      "email": "priya.nair@example.com",
+      "phone": "9845012345"
+    }
+  ]
+}

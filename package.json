@@ -1,0 +1,27 @@
+{
+  "name": "shopify-to-wordpress",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Migration tools for Reflection Elite Shopify to WordPress/WooCommerce",
+  "scripts": {
+    "export": "node scripts/export_shopify.js",
+    "download-media": "node scripts/download_media.js",
+    "transform": "node scripts/transform_woocommerce.js",
+    "verify": "node scripts/verify_migration.js",
+    "migrate": "node scripts/migrate_to_wordpress.js",
+    "audit": "node scripts/audit_wordpress.js",
+    "test": "node scripts/run_e2e_tests.js",
+    "test:live": "node scripts/run_e2e_tests.js --live"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "dependencies": {
+    "puppeteer-core": "^25.14.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.14.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.14.0": true
+  }
+}

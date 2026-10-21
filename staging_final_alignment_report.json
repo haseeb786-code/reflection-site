@@ -1,0 +1,178 @@
+[
+  {
+    "category": "Home",
+    "url": "https://reflectionelite.ataanalytiq.com/",
+    "httpStatus": 200,
+    "title": "Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_01_home.png"
+  },
+  {
+    "category": "Shop / Collection",
+    "url": "https://reflectionelite.ataanalytiq.com/shop/",
+    "httpStatus": 200,
+    "title": "Shop – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 7,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_02_shop.png"
+  },
+  {
+    "category": "Single Product (Showcase)",
+    "url": "https://reflectionelite.ataanalytiq.com/product/?prod=murana-mirror",
+    "httpStatus": 200,
+    "title": "Product – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_03_product_murana.png"
+  },
+  {
+    "category": "About Us",
+    "url": "https://reflectionelite.ataanalytiq.com/about-us/",
+    "httpStatus": 200,
+    "title": "About Us – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_04_about.png"
+  },
+  {
+    "category": "Contact",
+    "url": "https://reflectionelite.ataanalytiq.com/contact/",
+    "httpStatus": 200,
+    "title": "Contact – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_05_contact.png"
+  },
+  {
+    "category": "Privacy Policy",
+    "url": "https://reflectionelite.ataanalytiq.com/privacy-policy-2/",
+    "httpStatus": 200,
+    "title": "Privacy Policy – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_06_privacy.png"
+  },
+  {
+    "category": "Refund Policy",
+    "url": "https://reflectionelite.ataanalytiq.com/refund-policy/",
+    "httpStatus": 200,
+    "title": "Refund Policy – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_07_refund.png"
+  },
+  {
+    "category": "Shipping Policy",
+    "url": "https://reflectionelite.ataanalytiq.com/shipping-policy/",
+    "httpStatus": 200,
+    "title": "Shipping Policy – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_08_shipping.png"
+  },
+  {
+    "category": "Terms of Service",
+    "url": "https://reflectionelite.ataanalytiq.com/terms-of-service/",
+    "httpStatus": 200,
+    "title": "Terms of Service – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_09_terms.png"
+  },
+  {
+    "category": "Cart",
+    "url": "https://reflectionelite.ataanalytiq.com/cart/",
+    "httpStatus": 200,
+    "title": "Cart – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 6,
+    "actionButton": {
+      "label": "BOOK SURVEY",
+      "href": "https://reflectionelite.ataanalytiq.com/custom-dimensions/"
+    },
+    "screenshot": "staging_aligned_10_cart.png"
+  },
+  {
+    "category": "Book Survey / Custom Dimensions",
+    "url": "https://reflectionelite.ataanalytiq.com/custom-dimensions/",
+    "httpStatus": 200,
+    "title": "Custom Dimensions & Bespoke Design – Reflection Elite",
+    "bannerVisible": true,
+    "bannerText": "Complimentary Insured White-Glove Logistics & Laser Templating Across India",
+    "bannerAlignedWithLive": true,
+    "logoPresent": true,
+    "navLinksCount": 5,
+    "actionButton": {
+      "label": "REQUEST BESPOKE",
+      "href": "/contact/"
+    },
+    "screenshot": "staging_aligned_11_book_survey.png"
+  }
+]

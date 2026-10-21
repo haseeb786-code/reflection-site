@@ -1,0 +1,217 @@
+{
+  "activeTheme": {
+    "name": "Active: Hello Elementor",
+    "author": "By {{{ data.authorAndUri }}}",
+    "version": "Version: {{ data.version }}"
+  },
+  "activePlugins": [
+    {
+      "slug": "click-to-chat-for-whatsapp",
+      "title": "Click to Chat",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "custom-fonts",
+      "title": "Custom Fonts",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "elementor",
+      "title": "Elementor",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "essential-addons-for-elementor-lite",
+      "title": "Essential Addons for Elementor",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "hostinger-ai-assistant",
+      "title": "Hostinger AI",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "hostinger-easy-onboarding",
+      "title": "Hostinger Easy Onboarding",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "hostinger-reach",
+      "title": "Hostinger Reach",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "hostinger",
+      "title": "Hostinger Tools",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "litespeed-cache",
+      "title": "LiteSpeed Cache",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "royal-elementor-addons",
+      "title": "Royal Elementor Addons",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "template-kit-import",
+      "title": "Template Kit Import",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "unlimited-elements-for-elementor",
+      "title": "Unlimited Elements for Elementor",
+      "isActive": true,
+      "version": ""
+    },
+    {
+      "slug": "woocommerce",
+      "title": "WooCommerce",
+      "isActive": true,
+      "version": ""
+    }
+  ],
+  "inactivePlugins": [],
+  "reading": {
+    "showOnFront": "Unknown",
+    "pageOnFrontId": "52",
+    "pageOnFrontTitle": "Home"
+  },
+  "pages": [
+    {
+      "id": "674",
+      "title": "About Us",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "8",
+      "title": "Cart",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "9",
+      "title": "Checkout",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "943",
+      "title": "Contact",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "13",
+      "title": "Hello Theme #13",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "52",
+      "title": "Home",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "10",
+      "title": "My account",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "3",
+      "title": "Privacy Policy",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "1511",
+      "title": "Privacy Policy",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "1144",
+      "title": "Product",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "11",
+      "title": "Refund and Returns Policy",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "1519",
+      "title": "Refund Policy",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "1598",
+      "title": "Shipping Policy",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "7",
+      "title": "Shop",
+      "postState": "",
+      "date": ""
+    },
+    {
+      "id": "1615",
+      "title": "Terms of Service",
+      "postState": "",
+      "date": ""
+    }
+  ],
+  "home": {
+    "title": "Reflection Elite",
+    "googleFonts": [],
+    "h1s": [],
+    "h2s": [
+      "Featured Collections",
+      "Led mirror",
+      "Frame mirror",
+      "Led mirror",
+      "Rococo Floral",
+      "₹14000",
+      "Elevate Your Space with Premium Mirrors",
+      "Trending Era",
+      "Explore our beautifully crafted mirrors designed to bring elegance, depth, and light into your space.",
+      "Premium Mirror Collection",
+      "Upto 30% off on your precious collection",
+      "Premium materials and\nhand-selected finishing touches",
+      "Why Choose Reflection Elite",
+      "Expert Craftsmanship",
+      "Premium Quality Materials",
+      "Customized Designs",
+      "Customize size In Every perspective",
+      "Subscribe to our emails"
+    ],
+    "h3s": [],
+    "builder": {
+      "isElementor": true,
+      "isDivi": false,
+      "isWpBakery": false,
+      "isGutenberg": true
+    }
+  }
+}

@@ -1,0 +1,41 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Sensitive environment variables and credentials
+.env
+.env.local
+.env.*.local
+wp_session_cookies.json
+
+# Agent workspaces, execution logs, and session traces
+.agents/
+scratch/
+
+# Audit evidence, run screenshots, and visual diffs
+audit_evidence/
+audit_mobile_screenshots/
+before_after_evidence/
+demo_evidence/
+screenshots/
+backups/
+temp_pkg/
+
+# Root diagnostic dumps and test screenshots
+/*.png
+/*.jpg
+/*.webp
+/*.wav
+/*.html
+/*.txt
+functions_backup*.php
+functions_pre_unautop_backup.php
+staging_theme_functions.php
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,138 @@
+<section id="re-crypto-announcement-banner" class="re-crypto-ticker-container">
+  <style>
+    #re-crypto-announcement-banner {
+      position: relative !important;
+      width: 100vw !important;
+      left: 50% !important;
+      right: 50% !important;
+      margin-left: -50vw !important;
+      margin-right: -50vw !important;
+      background-color: #000000 !important;
+      border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+      padding: 16px 0 !important;
+      overflow: hidden !important;
+      box-sizing: border-box !important;
+      z-index: 5;
+    }
+
+    .re-crypto-ticker-track {
+      display: flex;
+      width: max-content;
+      animation: reCryptoMarquee 10s linear infinite;
+      will-change: transform;
+    }
+
+    .re-crypto-ticker-track:hover {
+      animation-play-state: paused;
+    }
+
+    .re-crypto-ticker-content {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .re-crypto-ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      padding: 0 45px;
+      color: #ffffff;
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: 13.5px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .re-crypto-btc-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      background: #f7931a;
+      color: #ffffff;
+      border-radius: 50%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 0 8px rgba(247, 147, 26, 0.5);
+      flex-shrink: 0;
+    }
+
+    @keyframes reCryptoMarquee {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    @media (max-width: 767px) {
+      #re-crypto-announcement-banner {
+        padding: 12px 0 !important;
+      }
+      .re-crypto-ticker-item {
+        font-size: 12px;
+        gap: 10px;
+        padding: 0 28px;
+      }
+      .re-crypto-btc-icon {
+        width: 18px;
+        height: 18px;
+        font-size: 11px;
+      }
+    }
+  </style>
+
+  <div class="re-crypto-ticker-track">
+    <div class="re-crypto-ticker-content">
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+    </div>
+    <div class="re-crypto-ticker-content" aria-hidden="true">
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+      <span class="re-crypto-ticker-item">
+        <span>CRYPTO CURRENCY ACCEPTED</span>
+        <span class="re-crypto-btc-icon">&#8383;</span>
+      </span>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,381 @@
+<script id="re-global-scripts">
+(function() {
+  // Global search toggle function
+  window.reToggleSearch = function(e) {
+    if (e) e.stopPropagation();
+    var s = document.getElementById('reSearchOverlayBar');
+    var d = document.getElementById('reMobileDrawer');
+    var b = document.getElementById('reHamburgerBtn');
+    if (!s) return;
+    var isOpen = s.style.display === 'none' || !s.style.display;
+    s.style.display = isOpen ? 'block' : 'none';
+    if (isOpen) {
+      if (d) { d.style.display = 'none'; d.classList.remove('is-open'); }
+      if (b) b.classList.remove('is-active');
+      var inp = s.querySelector('.re-search-field');
+      if (inp) {
+        setTimeout(function() { inp.focus(); }, 60);
+      }
+    }
+  };
+
+  // Global mobile drawer toggle function
+  window.reToggleDrawer = function(e) {
+    if (e) e.stopPropagation();
+    var d = document.getElementById('reMobileDrawer');
+    var b = document.getElementById('reHamburgerBtn');
+    var s = document.getElementById('reSearchOverlayBar');
+    if (!d) return;
+    var isOpen = d.style.display === 'none' || !d.style.display;
+    d.style.display = isOpen ? 'block' : 'none';
+    d.classList.toggle('is-open', isOpen);
+    if (b) b.classList.toggle('is-active', isOpen);
+    if (isOpen && s) {
+      s.style.display = 'none';
+    }
+  };
+
+  // Outside-click and Escape key handler
+  document.addEventListener('click', function(e) {
+    var d = document.getElementById('reMobileDrawer');
+    var b = document.getElementById('reHamburgerBtn');
+    if (d && (d.style.display === 'block' || d.classList.contains('is-open'))) {
+      if (!d.contains(e.target) && (!b || !b.contains(e.target))) {
+        d.style.display = 'none';
+        d.classList.remove('is-open');
+        if (b) b.classList.remove('is-active');
+      }
+    }
+
+    var s = document.getElementById('reSearchOverlayBar');
+    var searchBtn = document.getElementById('reSearchToggleBtn');
+    if (s && s.style.display === 'block') {
+      if (!s.contains(e.target) && (!searchBtn || !searchBtn.contains(e.target))) {
+        s.style.display = 'none';
+      }
+    }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      var s = document.getElementById('reSearchOverlayBar');
+      if (s) s.style.display = 'none';
+      var d = document.getElementById('reMobileDrawer');
+      if (d) { d.style.display = 'none'; d.classList.remove('is-open'); }
+      var b = document.getElementById('reHamburgerBtn');
+      if (b) b.classList.remove('is-active');
+    }
+  });
+
+  // Hero carousel auto slider handler
+  function initHeroSlider() {
+    var slides = document.querySelectorAll('.re-carousel-slide');
+    var dots = document.querySelectorAll('.re-carousel-dot');
+    var prevBtn = document.getElementById('rePrevBtn');
+    var nextBtn = document.getElementById('reNextBtn');
+    if (!slides.length) return;
+
+    var currentIndex = 0;
+    var timer = null;
+
+    function showSlide(index) {
+      if (index < 0) index = slides.length - 1;
+      if (index >= slides.length) index = 0;
+      currentIndex = index;
+
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].classList.toggle('active', i === currentIndex);
+      }
+      for (var j = 0; j < dots.length; j++) {
+        dots[j].classList.toggle('active', j === currentIndex);
+      }
+    }
+
+    function nextSlide() { showSlide(currentIndex + 1); }
+    function prevSlide() { showSlide(currentIndex - 1); }
+    function startAutoSlide() {
+      stopAutoSlide();
+      timer = setInterval(nextSlide, 4500);
+    }
+    function stopAutoSlide() {
+      if (timer) clearInterval(timer);
+    }
+
+    if (nextBtn) {
+      nextBtn.onclick = function(e) {
+        e.preventDefault();
+        nextSlide();
+        startAutoSlide();
+      };
+    }
+    if (prevBtn) {
+      prevBtn.onclick = function(e) {
+        e.preventDefault();
+        prevSlide();
+        startAutoSlide();
+      };
+    }
+    dots.forEach(function(dot, idx) {
+      dot.onclick = function(e) {
+        e.preventDefault();
+        showSlide(idx);
+        startAutoSlide();
+      };
+    });
+
+    startAutoSlide();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHeroSlider);
+  } else {
+    initHeroSlider();
+  }
+})();
+</script>
+
+
+<script id="re-live-instant-search-engine">
+(function initInstantLiveSearch() {
+  const PRODUCTS = [
+    { title: "ANTIQUE VENETIAN CUSHION", cat: "Venetian Mirror", price: "₹81,500", link: "/product/antique-venetian-cushion/", img: "https://reflectionelite.com/wp-content/uploads/2026/10/1771694577552.jpg", tags: "antique venetian cushion beveled mirror vintage italian glass" },
+    { title: "MODERN VICTORIAN", cat: "Venetian Mirror", price: "₹58,787", link: "/product/modern-victorian/", img: "https://reflectionelite.com/wp-content/uploads/2026/10/20260222_002716-scaled.jpg", tags: "modern victorian venetian classic heritage luxury mirror" },
+    { title: "SILVER CROWN FRAMED", cat: "Venetian Mirror", price: "₹35,900", link: "/product/silver-crown-framed/", img: "https://reflectionelite.com/wp-content/uploads/2026/10/20260221_235950-scaled.jpg", tags: "silver crown framed venetian crest mirror silver floral" },
+    { title: "ROCOCO FLORAL", cat: "Venetian Mirror", price: "₹14,000", link: "/product/rococo-floral/", img: "https://reflectionelite.com/wp-content/uploads/2026/10/20260222_092621-scaled.jpg", tags: "rococo floral oval venetian flowers etched mirror baroque" },
+    { title: "MOSAIC MIRROR ART", cat: "Contemporary", price: "₹2,500 – ₹7,500", link: "/product/mosaic-mirror-art/", img: "https://reflectionelite.com/wp-content/uploads/2026/10/20260305_220825.jpg", tags: "mosaic mirror art geometric horse contemporary glass modern" },
+    { title: "CUSTOMISED MIRROR", cat: "Custom", price: "₹100", link: "/product/customised-mirror/", img: "https://reflectionelite.com/wp-content/uploads/2026/10/WhatsAppImage2026-07-13at5.15.04PM.jpg", tags: "customised mirror smart led backlight phone mirror bespoke" },
+    { title: "PREMIUM UPHOLSTERED FRAME", cat: "Statement Piece", price: "Price on Request", link: "/product/premium-upholstered-frame/", img: "https://reflectionelite.com/wp-content/uploads/2026/10/WhatsAppImage2026-09-18at3.57.23PM.jpg", tags: "premium upholstered frame velvet wavy floor mirror tall standing" }
+  ];
+
+  function setupSearch() {
+    const overlays = document.querySelectorAll('.re-search-overlay-bar');
+    if (!overlays.length) return;
+
+    overlays.forEach(overlay => {
+      if (overlay.querySelector('.re-search-extra-container')) return;
+
+      const inner = overlay.querySelector('.re-search-inner');
+      const input = overlay.querySelector('.re-search-field');
+      if (!inner || !input) return;
+
+      const extraWrap = document.createElement('div');
+      extraWrap.className = 're-search-extra-container';
+      extraWrap.innerHTML = `
+        <div class="re-search-suggestions">
+          <span class="re-search-suggestions-label">Popular:</span>
+          <span class="re-search-pill" data-term="Venetian">Venetian</span>
+          <span class="re-search-pill" data-term="Victorian">Victorian</span>
+          <span class="re-search-pill" data-term="Crown">Crown</span>
+          <span class="re-search-pill" data-term="Rococo">Rococo</span>
+          <span class="re-search-pill" data-term="Mosaic">Mosaic</span>
+          <span class="re-search-pill" data-term="Custom">Custom</span>
+          <span class="re-search-pill" data-term="Mirror">All Mirrors</span>
+        </div>
+        <div class="re-live-results-panel" id="reLiveResultsPanel" style="display:none;"></div>
+      `;
+      inner.appendChild(extraWrap);
+
+      const resultsPanel = extraWrap.querySelector('#reLiveResultsPanel');
+
+      function renderResults(query) {
+        const q = (query || '').trim().toLowerCase();
+        if (!q) {
+          resultsPanel.style.display = 'none';
+          resultsPanel.innerHTML = '';
+          return;
+        }
+
+        const matches = PRODUCTS.filter(p => {
+          return p.title.toLowerCase().includes(q) ||
+                 p.cat.toLowerCase().includes(q) ||
+                 p.tags.toLowerCase().includes(q);
+        });
+
+        if (matches.length === 0) {
+          resultsPanel.innerHTML = '<div class="re-live-no-results">No bespoke mirrors found matching "<strong>' + escapeHtml(query) + '</strong>".<br><span style="font-size:11px;color:#c5a572;margin-top:6px;display:inline-block;">Try: Venetian, Victorian, Crown, Rococo, or Mosaic</span></div>';
+          resultsPanel.style.display = 'block';
+          return;
+        }
+
+        let html = '';
+        matches.forEach(p => {
+          html += '<a href="' + p.link + '" class="re-live-item">' +
+            '<img src="' + p.img + '" alt="' + escapeHtml(p.title) + '" class="re-live-thumb" />' +
+            '<div class="re-live-info">' +
+              '<div class="re-live-cat">' + p.cat + '</div>' +
+              '<div class="re-live-title">' + p.title + '</div>' +
+              '<div class="re-live-price">' + p.price + '</div>' +
+            '</div>' +
+            '<span class="re-live-action">VIEW PIECE &rarr;</span>' +
+          '</a>';
+        });
+        html += '<div style="padding:8px 14px; background:#040506; font-size:11px; color:#888; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">Press Enter or click SEARCH for full catalog view</div>';
+        resultsPanel.innerHTML = html;
+        resultsPanel.style.display = 'block';
+      }
+
+      function escapeHtml(str) {
+        return (str || '').replace(/[&<>"']/g, m => ({ '&': '&', '<': '<', '>': '>', '"': '"', "'": ''' })[m]);
+      }
+
+      input.addEventListener('input', () => {
+        renderResults(input.value);
+      });
+
+      extraWrap.querySelectorAll('.re-search-pill').forEach(pill => {
+        pill.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const term = pill.getAttribute('data-term');
+          input.value = term;
+          input.focus();
+          renderResults(term);
+        });
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupSearch);
+  } else {
+    setupSearch();
+  }
+})();
+</script>
+
+<script id="re-auth-card-switcher-engine">
+(function initAuthCardSwitcher() {
+  function setupAuthSwitcher() {
+    const card = document.getElementById('customer_login');
+    if (!card) return;
+    if (card.querySelector('.re-auth-switcher')) return; // Already setup
+
+    // 1. Create Card Header with segmented tabs
+    const header = document.createElement('div');
+    header.className = 're-auth-card-header';
+    header.innerHTML = `
+      <h2 class="re-auth-card-title" id="reAuthCardTitle">Login Form</h2>
+      <div class="re-auth-switcher" role="tablist">
+        <button type="button" class="re-auth-tab active" data-tab="login" role="tab" aria-selected="true">Login</button>
+        <button type="button" class="re-auth-tab" data-tab="register" role="tab" aria-selected="false">Signup</button>
+      </div>
+    `;
+    card.insertBefore(header, card.firstChild);
+
+    const titleEl = header.querySelector('#reAuthCardTitle');
+    const tabLogin = header.querySelector('.re-auth-tab[data-tab="login"]');
+    const tabRegister = header.querySelector('.re-auth-tab[data-tab="register"]');
+
+    // 2. Add placeholders and footer switch link to Login form
+    const loginCol = card.querySelector('.u-column1');
+    if (loginCol) {
+      const uField = loginCol.querySelector('#username');
+      if (uField) uField.setAttribute('placeholder', 'Enter username or email address');
+      const pField = loginCol.querySelector('#password');
+      if (pField) pField.setAttribute('placeholder', 'Enter your password');
+
+      const loginForm = loginCol.querySelector('form');
+      if (loginForm && !loginForm.querySelector('.re-auth-switch-footer')) {
+        const loginFoot = document.createElement('div');
+        loginFoot.className = 're-auth-switch-footer';
+        loginFoot.innerHTML = 'Create an account <a class="re-to-signup" href="#register">Signup now</a>';
+        loginForm.appendChild(loginFoot);
+        loginFoot.querySelector('.re-to-signup').addEventListener('click', (e) => {
+          e.preventDefault();
+          setTab('register');
+        });
+      }
+    }
+
+    // 3. Add placeholders and footer switch link to Register form
+    const regCol = card.querySelector('.u-column2');
+    if (regCol) {
+      const regEmail = regCol.querySelector('#reg_email');
+      if (regEmail) regEmail.setAttribute('placeholder', 'Enter your email address');
+      const regPass = regCol.querySelector('#reg_password');
+      if (regPass) regPass.setAttribute('placeholder', 'Create a password');
+
+      const regForm = regCol.querySelector('form');
+      if (regForm && !regForm.querySelector('.re-auth-switch-footer')) {
+        const regFoot = document.createElement('div');
+        regFoot.className = 're-auth-switch-footer';
+        regFoot.innerHTML = 'Already have an account? <a class="re-to-login" href="#login">Login now</a>';
+        regForm.appendChild(regFoot);
+        regFoot.querySelector('.re-to-login').addEventListener('click', (e) => {
+          e.preventDefault();
+          setTab('login');
+        });
+      }
+    }
+
+    function setTab(tab) {
+      if (tab === 'register') {
+        card.classList.add('re-mode-signup');
+        tabRegister.classList.add('active');
+        tabRegister.setAttribute('aria-selected', 'true');
+        tabLogin.classList.remove('active');
+        tabLogin.setAttribute('aria-selected', 'false');
+        if (titleEl) titleEl.textContent = 'Signup Form';
+        if (history.replaceState) {
+          history.replaceState(null, '', '#register');
+        }
+      } else {
+        card.classList.remove('re-mode-signup');
+        tabLogin.classList.add('active');
+        tabLogin.setAttribute('aria-selected', 'true');
+        tabRegister.classList.remove('active');
+        tabRegister.setAttribute('aria-selected', 'false');
+        if (titleEl) titleEl.textContent = 'Login Form';
+        if (history.replaceState) {
+          history.replaceState(null, '', '#login');
+        }
+      }
+    }
+
+    tabLogin.addEventListener('click', (e) => {
+      e.preventDefault();
+      setTab('login');
+    });
+
+    tabRegister.addEventListener('click', (e) => {
+      e.preventDefault();
+      setTab('register');
+    });
+
+    // Check if initial hash is #register or URL has action=register
+    const hasRegHash = window.location.hash === '#register' || window.location.search.includes('register');
+    
+    // Check if there was a registration error returned by WooCommerce
+    const notices = document.querySelector('.woocommerce-error, .woocommerce-notices-wrapper');
+    const noticeText = notices ? notices.textContent.toLowerCase() : '';
+    const hasRegError = noticeText.includes('registration') || 
+                        noticeText.includes('an account is already registered') || 
+                        noticeText.includes('valid email');
+
+    if (hasRegHash || hasRegError) {
+      setTab('register');
+    } else {
+      setTab('login');
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupAuthSwitcher);
+  } else {
+    setupAuthSwitcher();
+  }
+})();
+</script>
+
+<script id="re-remove-marquee-banner">
+(function() {
+  function dropMarquee() {
+    var marquees = document.querySelectorAll('.re-marquee-wrapper, #reMarqueeBar');
+    marquees.forEach(function(el) { el.remove(); });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', dropMarquee);
+  } else {
+    dropMarquee();
+  }
+})();
+</script>

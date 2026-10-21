@@ -1,0 +1,599 @@
+[
+  {
+    "page": "home",
+    "viewport": "320px",
+    "width": 320,
+    "overflowPassed": true,
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "details": {
+      "heroContentBg": "rgba(0, 0, 0, 0)",
+      "heroContentBackdrop": "blur(12px)",
+      "ctaLinkBg": "rgba(199, 161, 90, 0.12)",
+      "ctaLinkBorder": "rgba(199, 161, 90, 0.45)",
+      "ctaLinkColor": "rgb(42, 23, 13)",
+      "announcementDisplay": "flex",
+      "announcementText": "COMPLIMENTARY DESIGN GUIDANCE PAN-INDIA DELIVERY",
+      "scrollTopDisplay": "none",
+      "scrollTopBg": "rgb(42, 23, 13)",
+      "siteTitleFontSize": "16px",
+      "siteTitleWhiteSpace": "nowrap"
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\home_320px.png"
+  },
+  {
+    "page": "shop",
+    "viewport": "320px",
+    "width": 320,
+    "overflowPassed": true,
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "details": {
+      "pillsOverflowX": "auto",
+      "pillsFlexWrap": "nowrap",
+      "cardCount": 7,
+      "sampleCards": [
+        {
+          "title": "ANTIQUE VENETIAN CUSHION",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 916.34375,
+          "cardBottom": 925.34375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "MODERN VICTORIAN",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 916.34375,
+          "cardBottom": 925.34375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "SILVER CROWN FRAMED",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 1208.609375,
+          "cardBottom": 1217.609375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "ROCOCO FLORAL",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 1208.609375,
+          "cardBottom": 1217.609375,
+          "btnMarginFromBottom": 9
+        }
+      ]
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\shop_320px.png"
+  },
+  {
+    "page": "bespoke",
+    "viewport": "320px",
+    "width": 320,
+    "overflowPassed": true,
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "details": {
+      "catalogLinkWrap": {
+        "name": "catalogLinkWrap",
+        "width": 292,
+        "right": 306,
+        "overflows": false
+      },
+      "glassPanel": {
+        "name": "glassPanel",
+        "width": 292,
+        "right": 306,
+        "overflows": false
+      },
+      "pillBtn": {
+        "name": "pillBtn",
+        "width": 258,
+        "right": 289,
+        "overflows": false
+      }
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\bespoke_320px.png"
+  },
+  {
+    "page": "story",
+    "viewport": "320px",
+    "width": 320,
+    "overflowPassed": true,
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "details": {
+      "found": true,
+      "cardRect": {
+        "top": 4830,
+        "bottom": 5269,
+        "left": 14,
+        "right": 306,
+        "width": 292,
+        "height": 439
+      },
+      "btns": [
+        {
+          "text": "VIEW MIRROR COLLECTION →",
+          "top": 5124,
+          "bottom": 5168,
+          "left": 31,
+          "right": 289,
+          "height": 44,
+          "width": 258,
+          "overflowsBottom": false,
+          "overflowsRight": false,
+          "overflowsLeft": false
+        },
+        {
+          "text": "CHAT ON WHATSAPP (+91 7387463103) ↗",
+          "top": 5178,
+          "bottom": 5240,
+          "left": 31,
+          "right": 289,
+          "height": 62,
+          "width": 258,
+          "overflowsBottom": false,
+          "overflowsRight": false,
+          "overflowsLeft": false
+        }
+      ],
+      "anyOverflow": false
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\story_320px.png"
+  },
+  {
+    "page": "contact",
+    "viewport": "320px",
+    "width": 320,
+    "overflowPassed": true,
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "details": {},
+    "screenshot": "audit_mobile_screenshots\\verified\\contact_320px.png"
+  },
+  {
+    "page": "home",
+    "viewport": "360px",
+    "width": 360,
+    "overflowPassed": true,
+    "scrollWidth": 360,
+    "clientWidth": 360,
+    "details": {
+      "heroContentBg": "rgba(0, 0, 0, 0)",
+      "heroContentBackdrop": "blur(12px)",
+      "ctaLinkBg": "rgba(199, 161, 90, 0.12)",
+      "ctaLinkBorder": "rgba(199, 161, 90, 0.45)",
+      "ctaLinkColor": "rgb(42, 23, 13)",
+      "announcementDisplay": "flex",
+      "announcementText": "COMPLIMENTARY DESIGN GUIDANCE PAN-INDIA DELIVERY",
+      "scrollTopDisplay": "none",
+      "scrollTopBg": "rgb(42, 23, 13)",
+      "siteTitleFontSize": "17.28px",
+      "siteTitleWhiteSpace": "nowrap"
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\home_360px.png"
+  },
+  {
+    "page": "shop",
+    "viewport": "360px",
+    "width": 360,
+    "overflowPassed": true,
+    "scrollWidth": 360,
+    "clientWidth": 360,
+    "details": {
+      "pillsOverflowX": "auto",
+      "pillsFlexWrap": "nowrap",
+      "cardCount": 7,
+      "sampleCards": [
+        {
+          "title": "ANTIQUE VENETIAN CUSHION",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 916.34375,
+          "cardBottom": 925.34375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "MODERN VICTORIAN",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 916.34375,
+          "cardBottom": 925.34375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "SILVER CROWN FRAMED",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 1208.609375,
+          "cardBottom": 1217.609375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "ROCOCO FLORAL",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 1208.609375,
+          "cardBottom": 1217.609375,
+          "btnMarginFromBottom": 9
+        }
+      ]
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\shop_360px.png"
+  },
+  {
+    "page": "bespoke",
+    "viewport": "360px",
+    "width": 360,
+    "overflowPassed": true,
+    "scrollWidth": 360,
+    "clientWidth": 360,
+    "details": {
+      "catalogLinkWrap": {
+        "name": "catalogLinkWrap",
+        "width": 332,
+        "right": 346,
+        "overflows": false
+      },
+      "glassPanel": {
+        "name": "glassPanel",
+        "width": 332,
+        "right": 346,
+        "overflows": false
+      },
+      "pillBtn": {
+        "name": "pillBtn",
+        "width": 298,
+        "right": 329,
+        "overflows": false
+      }
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\bespoke_360px.png"
+  },
+  {
+    "page": "story",
+    "viewport": "360px",
+    "width": 360,
+    "overflowPassed": true,
+    "scrollWidth": 360,
+    "clientWidth": 360,
+    "details": {
+      "found": true,
+      "cardRect": {
+        "top": 4436,
+        "bottom": 4811,
+        "left": 14,
+        "right": 346,
+        "width": 332,
+        "height": 374
+      },
+      "btns": [
+        {
+          "text": "VIEW MIRROR COLLECTION →",
+          "top": 4683,
+          "bottom": 4727,
+          "left": 31,
+          "right": 329,
+          "height": 44,
+          "width": 298,
+          "overflowsBottom": false,
+          "overflowsRight": false,
+          "overflowsLeft": false
+        },
+        {
+          "text": "CHAT ON WHATSAPP (+91 7387463103) ↗",
+          "top": 4737,
+          "bottom": 4782,
+          "left": 31,
+          "right": 329,
+          "height": 44,
+          "width": 298,
+          "overflowsBottom": false,
+          "overflowsRight": false,
+          "overflowsLeft": false
+        }
+      ],
+      "anyOverflow": false
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\story_360px.png"
+  },
+  {
+    "page": "contact",
+    "viewport": "360px",
+    "width": 360,
+    "overflowPassed": true,
+    "scrollWidth": 360,
+    "clientWidth": 360,
+    "details": {},
+    "screenshot": "audit_mobile_screenshots\\verified\\contact_360px.png"
+  },
+  {
+    "page": "home",
+    "viewport": "375px",
+    "width": 375,
+    "overflowPassed": true,
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "details": {
+      "heroContentBg": "rgba(0, 0, 0, 0)",
+      "heroContentBackdrop": "blur(12px)",
+      "ctaLinkBg": "rgba(199, 161, 90, 0.12)",
+      "ctaLinkBorder": "rgba(199, 161, 90, 0.45)",
+      "ctaLinkColor": "rgb(42, 23, 13)",
+      "announcementDisplay": "flex",
+      "announcementText": "COMPLIMENTARY DESIGN GUIDANCE PAN-INDIA DELIVERY",
+      "scrollTopDisplay": "none",
+      "scrollTopBg": "rgb(42, 23, 13)",
+      "siteTitleFontSize": "18px",
+      "siteTitleWhiteSpace": "nowrap"
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\home_375px.png"
+  },
+  {
+    "page": "shop",
+    "viewport": "375px",
+    "width": 375,
+    "overflowPassed": true,
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "details": {
+      "pillsOverflowX": "auto",
+      "pillsFlexWrap": "nowrap",
+      "cardCount": 7,
+      "sampleCards": [
+        {
+          "title": "ANTIQUE VENETIAN CUSHION",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 916.34375,
+          "cardBottom": 925.34375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "MODERN VICTORIAN",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 916.34375,
+          "cardBottom": 925.34375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "SILVER CROWN FRAMED",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 1208.609375,
+          "cardBottom": 1217.609375,
+          "btnMarginFromBottom": 9
+        },
+        {
+          "title": "ROCOCO FLORAL",
+          "btnText": "VIEW DETAILS",
+          "btnClass": "re-btn-action re-btn-view",
+          "cardHeight": 284.265625,
+          "btnBottom": 1208.609375,
+          "cardBottom": 1217.609375,
+          "btnMarginFromBottom": 9
+        }
+      ]
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\shop_375px.png"
+  },
+  {
+    "page": "bespoke",
+    "viewport": "375px",
+    "width": 375,
+    "overflowPassed": true,
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "details": {
+      "catalogLinkWrap": {
+        "name": "catalogLinkWrap",
+        "width": 347,
+        "right": 361,
+        "overflows": false
+      },
+      "glassPanel": {
+        "name": "glassPanel",
+        "width": 347,
+        "right": 361,
+        "overflows": false
+      },
+      "pillBtn": {
+        "name": "pillBtn",
+        "width": 313,
+        "right": 344,
+        "overflows": false
+      }
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\bespoke_375px.png"
+  },
+  {
+    "page": "story",
+    "viewport": "375px",
+    "width": 375,
+    "overflowPassed": true,
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "details": {
+      "found": true,
+      "cardRect": {
+        "top": 4346,
+        "bottom": 4720,
+        "left": 14,
+        "right": 361,
+        "width": 347,
+        "height": 374
+      },
+      "btns": [
+        {
+          "text": "VIEW MIRROR COLLECTION →",
+          "top": 4593,
+          "bottom": 4637,
+          "left": 31,
+          "right": 344,
+          "height": 44,
+          "width": 313,
+          "overflowsBottom": false,
+          "overflowsRight": false,
+          "overflowsLeft": false
+        },
+        {
+          "text": "CHAT ON WHATSAPP (+91 7387463103) ↗",
+          "top": 4647,
+          "bottom": 4691,
+          "left": 31,
+          "right": 344,
+          "height": 44,
+          "width": 313,
+          "overflowsBottom": false,
+          "overflowsRight": false,
+          "overflowsLeft": false
+        }
+      ],
+      "anyOverflow": false
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\story_375px.png"
+  },
+  {
+    "page": "contact",
+    "viewport": "375px",
+    "width": 375,
+    "overflowPassed": true,
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "details": {},
+    "screenshot": "audit_mobile_screenshots\\verified\\contact_375px.png"
+  },
+  {
+    "page": "home",
+    "viewport": "390px",
+    "width": 390,
+    "overflowPassed": true,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "details": {
+      "heroContentBg": "rgba(0, 0, 0, 0)",
+      "heroContentBackdrop": "blur(12px)",
+      "ctaLinkBg": "rgba(199, 161, 90, 0.12)",
+      "ctaLinkBorder": "rgba(199, 161, 90, 0.45)",
+      "ctaLinkColor": "rgb(42, 23, 13)",
+      "announcementDisplay": "flex",
+      "announcementText": "COMPLIMENTARY DESIGN GUIDANCE PAN-INDIA DELIVERY",
+      "scrollTopDisplay": "none",
+      "scrollTopBg": "rgb(42, 23, 13)",
+      "siteTitleFontSize": "18.72px",
+      "siteTitleWhiteSpace": "nowrap"
+    },
+    "screenshot": "audit_mobile_screenshots\\verified\\home_390px.png"
+  },
+  {
+    "page": "shop",
+    "viewport": "390px",
+    "error": "Attempted to use detached Frame 'EC66DA4ED95742678C6BF0E61C3D918F'."
+  },
+  {
+    "page": "bespoke",
+    "viewport": "390px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "story",
+    "viewport": "390px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "contact",
+    "viewport": "390px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "home",
+    "viewport": "414px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "shop",
+    "viewport": "414px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "bespoke",
+    "viewport": "414px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "story",
+    "viewport": "414px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "contact",
+    "viewport": "414px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "home",
+    "viewport": "430px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "shop",
+    "viewport": "430px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "bespoke",
+    "viewport": "430px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "story",
+    "viewport": "430px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "contact",
+    "viewport": "430px",
+    "error": "Connection closed."
+  },
+  {
+    "page": "home",
+    "viewport": "1280px_desktop",
+    "error": "Connection closed."
+  },
+  {
+    "page": "shop",
+    "viewport": "1280px_desktop",
+    "error": "Connection closed."
+  },
+  {
+    "page": "bespoke",
+    "viewport": "1280px_desktop",
+    "error": "Connection closed."
+  },
+  {
+    "page": "story",
+    "viewport": "1280px_desktop",
+    "error": "Connection closed."
+  },
+  {
+    "page": "contact",
+    "viewport": "1280px_desktop",
+    "error": "Connection closed."
+  }
+]

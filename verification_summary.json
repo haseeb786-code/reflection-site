@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "page": "Shop",
+      "hasRawCssCode": false,
+      "hasHeroSlider": false
+    },
+    {
+      "page": "About",
+      "hasRawCssCode": false,
+      "hasHeroSlider": false
+    },
+    {
+      "page": "Contact",
+      "hasRawCssCode": false,
+      "hasHeroSlider": false
+    },
+    {
+      "page": "Cart",
+      "hasRawCssCode": false,
+      "hasHeroSlider": false
+    },
+    {
+      "page": "Policies",
+      "hasRawCssCode": false,
+      "hasHeroSlider": false
+    }
+  ],
+  "viewports": {
+    "desktop_1440": {
+      "hasHorizontalScroll": false,
+      "carouselWidth": 1100,
+      "carouselHeight": 732.609375,
+      "carouselAspectRatio": "1.501",
+      "slidesCount": 2,
+      "overlaysCount": 2,
+      "hasTickerTrack": true,
+      "tickerAnimation": "te-ticker-scroll"
+    },
+    "mobile_375": {
+      "hasHorizontalScroll": false,
+      "carouselWidth": 375,
+      "carouselHeight": 390,
+      "overlaysCount": 2
+    }
+  }
+}

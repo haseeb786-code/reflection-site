@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-10-16T08:05:20.412Z",
+  "totalAssertions": 575,
+  "totalPassed": 574,
+  "totalFailed": 1,
+  "passRate": "99.83%",
+  "durationMs": 27997,
+  "tiers": [
+    {
+      "tier": "Tier 1: Feature Coverage (Features 1-36)",
+      "totalAssertions": 253,
+      "passedAssertions": 253,
+      "failedAssertions": 0,
+      "durationMs": 27994,
+      "passRate": "100.00%",
+      "failures": []
+    },
+    {
+      "tier": "Tier 2: Boundary Value Analysis & Corner Cases",
+      "totalAssertions": 222,
+      "passedAssertions": 222,
+      "failedAssertions": 0,
+      "durationMs": 27952,
+      "passRate": "100.00%",
+      "failures": []
+    },
+    {
+      "tier": "Tier 3: Cross-Feature Combinations & Pairwise Interactions",
+      "totalAssertions": 50,
+      "passedAssertions": 50,
+      "failedAssertions": 0,
+      "durationMs": 27940,
+      "passRate": "100.00%",
+      "failures": []
+    },
+    {
+      "tier": "Tier 4: Real-World Shopping Scenarios",
+      "totalAssertions": 38,
+      "passedAssertions": 38,
+      "failedAssertions": 0,
+      "durationMs": 27933,
+      "passRate": "100.00%",
+      "failures": []
+    },
+    {
+      "tier": "Live Hostinger WordPress Integration Audit",
+      "totalAssertions": 12,
+      "passedAssertions": 11,
+      "failedAssertions": 1,
+      "durationMs": 27886,
+      "passRate": "91.67%",
+      "failures": [
+        {
+          "tier": "Live Hostinger WordPress Integration Audit",
+          "suite": "Live WooCommerce Store Configuration",
+          "test": "Live payment gateways status (COD and Razorpay)",
+          "passed": false,
+          "message": "COD payment gateway is enabled",
+          "details": "Expected [true] but got [false]"
+        }
+      ]
+    }
+  ]
+}

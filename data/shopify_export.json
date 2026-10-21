@@ -1,0 +1,1290 @@
+{
+  "exportDate": "2026-10-14T15:41:43.314Z",
+  "shop": {
+    "id": 71863042137,
+    "name": "Reflection Elite",
+    "email": "reflectionelite.com@gmail.com",
+    "domain": "reflectionelite.com",
+    "province": "Goa",
+    "country": "IN",
+    "address1": "KGN GLASS",
+    "zip": "403510",
+    "city": "Parra",
+    "source": null,
+    "phone": "7387463103",
+    "latitude": 15.5652917,
+    "longitude": 73.7909758,
+    "primary_locale": "en",
+    "address2": "On the way of saligaon road",
+    "created_at": "2026-02-01T13:25:56+05:30",
+    "updated_at": "2026-10-01T15:10:01+05:30",
+    "country_code": "IN",
+    "country_name": "India",
+    "currency": "INR",
+    "customer_email": "reflectionelite.com@gmail.com",
+    "timezone": "(GMT+05:30) Asia/Kolkata",
+    "iana_timezone": "Asia/Kolkata",
+    "shop_owner": "Mohammad Kaif",
+    "money_format": "Rs. {{amount}}",
+    "money_with_currency_format": "Rs. {{amount}} INR",
+    "weight_unit": "kg",
+    "province_code": "GA",
+    "taxes_included": false,
+    "auto_configure_tax_inclusivity": null,
+    "tax_shipping": null,
+    "county_taxes": true,
+    "plan_display_name": "Basic",
+    "plan_name": "basic",
+    "has_discounts": true,
+    "has_gift_cards": false,
+    "myshopify_domain": "enmj61-4v.myshopify.com",
+    "google_apps_domain": null,
+    "google_apps_login_enabled": null,
+    "money_in_emails_format": "Rs. {{amount}}",
+    "money_with_currency_in_emails_format": "Rs. {{amount}} INR",
+    "eligible_for_payments": false,
+    "requires_extra_payments_agreement": false,
+    "password_enabled": false,
+    "has_storefront": true,
+    "finances": true,
+    "primary_location_id": 92714893401,
+    "checkout_api_supported": false,
+    "multi_location_enabled": true,
+    "setup_required": false,
+    "pre_launch_enabled": false,
+    "enabled_presentment_currencies": [
+      "INR"
+    ],
+    "marketing_sms_consent_enabled_at_checkout": false,
+    "marketing_email_consent_enabled_at_checkout": false,
+    "transactional_sms_disabled": true
+  },
+  "collections": [
+    {
+      "id": 464998793305,
+      "handle": "diy-glass-mirror",
+      "title": "Diy glass",
+      "updated_at": "2026-08-17T22:56:13+05:30",
+      "body_html": "",
+      "published_at": "2026-02-26T02:45:15+05:30",
+      "sort_order": "best-selling",
+      "template_suffix": "",
+      "published_scope": "global",
+      "admin_graphql_api_id": "gid://shopify/Collection/464998793305",
+      "image": {
+        "created_at": "2026-02-27T02:02:11+05:30",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/collections/cut-piece-tukdi-mirror.png?v=1772137931"
+      }
+    },
+    {
+      "id": 464998727769,
+      "handle": "frame-mirror",
+      "title": "Frame",
+      "updated_at": "2026-06-02T17:00:19+05:30",
+      "body_html": "",
+      "published_at": "2026-02-26T02:38:45+05:30",
+      "sort_order": "best-selling",
+      "template_suffix": "",
+      "published_scope": "global",
+      "admin_graphql_api_id": "gid://shopify/Collection/464998727769",
+      "image": {
+        "created_at": "2026-02-27T01:48:27+05:30",
+        "alt": null,
+        "width": 1248,
+        "height": 832,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/collections/frame-mirror.png?v=1772137107"
+      }
+    },
+    {
+      "id": 464998760537,
+      "handle": "led-mirror",
+      "title": "Led",
+      "updated_at": "2026-06-02T17:00:19+05:30",
+      "body_html": "",
+      "published_at": "2026-02-26T02:39:26+05:30",
+      "sort_order": "best-selling",
+      "template_suffix": "",
+      "published_scope": "global",
+      "admin_graphql_api_id": "gid://shopify/Collection/464998760537",
+      "image": {
+        "created_at": "2026-02-27T01:56:03+05:30",
+        "alt": null,
+        "width": 832,
+        "height": 1248,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/collections/generat-an-led-luxurious-mirror.png?v=1772137563"
+      }
+    },
+    {
+      "id": 468693549145,
+      "handle": "vanished-murano-mirror",
+      "title": "Vanished murano",
+      "updated_at": "2026-06-02T17:00:19+05:30",
+      "body_html": "",
+      "published_at": "2026-05-29T17:17:31+05:30",
+      "sort_order": "most-relevant",
+      "template_suffix": "",
+      "published_scope": "global",
+      "admin_graphql_api_id": "gid://shopify/Collection/468693549145",
+      "image": {
+        "created_at": "2026-05-29T17:17:29+05:30",
+        "alt": null,
+        "width": 1023,
+        "height": 1537,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/collections/ChatGPT_Image_May_29_2026_05_16_35_PM.png?v=1780055250"
+      }
+    },
+    {
+      "id": 465288200281,
+      "handle": "venetian-mirror",
+      "title": "Venetian",
+      "updated_at": "2026-09-11T16:53:03+05:30",
+      "body_html": "",
+      "published_at": "2026-03-06T01:54:18+05:30",
+      "sort_order": "best-selling",
+      "template_suffix": "",
+      "published_scope": "global",
+      "admin_graphql_api_id": "gid://shopify/Collection/465288200281",
+      "image": {
+        "created_at": "2026-03-06T01:54:16+05:30",
+        "alt": null,
+        "width": 1248,
+        "height": 832,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/collections/an-luxury-venetian-mirror.png?v=1772742256"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 8151836655705,
+      "title": "Antique venetian cushion",
+      "body_html": "<p>This handcrafted Venetian mirror embodies timeless Italian elegance and shimmering glass that amplifies light for a luxurious feel. </p>\n<p>Made from premium 4-5mm float glass, durable MDF backing, and finishes like silver it's available in sizes from 30\"x48\" vanities according to your required dimensions statement pieces.</p>\n<p>Perfect for bathrooms, living rooms, or entryways in modern, classic, or baroque decor, it serves as a stunning focal point.</p>",
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-02-22T14:16:44+05:30",
+      "handle": "antique-venetian-cushion",
+      "updated_at": "2026-10-03T20:46:29+05:30",
+      "published_at": "2026-02-22T14:16:45+05:30",
+      "template_suffix": "",
+      "published_scope": "global",
+      "tags": "",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8151836655705",
+      "variants": [
+        {
+          "id": 43089543725145,
+          "product_id": 8151836655705,
+          "title": "Default Title",
+          "price": "81500.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": "43300.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-02-22T14:16:44+05:30",
+          "updated_at": "2026-10-03T20:46:30+05:30",
+          "taxable": false,
+          "barcode": "",
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 45189557452889,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/43089543725145",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10432152272985,
+          "product_id": 8151836655705,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 35517110779993,
+          "alt": null,
+          "position": 1,
+          "product_id": 8151836655705,
+          "created_at": "2026-02-22T14:04:20+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548299821145",
+          "width": 864,
+          "height": 1184,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/1771694577552.webp?v=1771749262",
+          "variant_ids": []
+        },
+        {
+          "id": 35517110812761,
+          "alt": null,
+          "position": 2,
+          "product_id": 8151836655705,
+          "created_at": "2026-02-22T14:04:20+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548299853913",
+          "width": 1024,
+          "height": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/1771694915076.webp?v=1771749262",
+          "variant_ids": []
+        },
+        {
+          "id": 35517110845529,
+          "alt": null,
+          "position": 3,
+          "product_id": 8151836655705,
+          "created_at": "2026-02-22T14:04:20+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548299886681",
+          "width": 1024,
+          "height": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/1771694849916.webp?v=1771749262",
+          "variant_ids": []
+        },
+        {
+          "id": 35517110878297,
+          "alt": null,
+          "position": 4,
+          "product_id": 8151836655705,
+          "created_at": "2026-02-22T14:04:20+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548299919449",
+          "width": 1124,
+          "height": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/antique-venetian-cushion-mirror-c1910-20_10246_pic3_size4.jpg?v=1771749262",
+          "variant_ids": []
+        },
+        {
+          "id": 35517110911065,
+          "alt": null,
+          "position": 5,
+          "product_id": 8151836655705,
+          "created_at": "2026-02-22T14:04:20+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548299952217",
+          "width": 1500,
+          "height": 1087,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/antique-venetian-cushion-mirror-c1910-20_10246_pic4_size4.jpg?v=1771749262",
+          "variant_ids": []
+        },
+        {
+          "id": 35517110943833,
+          "alt": null,
+          "position": 6,
+          "product_id": 8151836655705,
+          "created_at": "2026-02-22T14:04:20+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548299984985",
+          "width": 948,
+          "height": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/antique-venetian-cushion-mirror-c1910-20_10246_pic5_size4.jpg?v=1771749262",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 35517110779993,
+        "alt": null,
+        "position": 1,
+        "product_id": 8151836655705,
+        "created_at": "2026-02-22T14:04:20+05:30",
+        "updated_at": "2026-08-20T21:10:28+05:30",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/27548299821145",
+        "width": 864,
+        "height": 1184,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/1771694577552.webp?v=1771749262",
+        "variant_ids": []
+      },
+      "collections": [
+        {
+          "id": 465288200281,
+          "title": "Venetian",
+          "handle": "venetian-mirror"
+        }
+      ]
+    },
+    {
+      "id": 8275701563481,
+      "title": "Customised Mirror",
+      "body_html": "",
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-07-14T17:29:03+05:30",
+      "handle": "customised-mirror",
+      "updated_at": "2026-10-03T20:46:28+05:30",
+      "published_at": "2026-07-14T17:29:04+05:30",
+      "template_suffix": "",
+      "published_scope": "global",
+      "tags": "",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8275701563481",
+      "variants": [
+        {
+          "id": 43629116293209,
+          "product_id": 8275701563481,
+          "title": "Default Title",
+          "price": "100.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-07-14T17:29:03+05:30",
+          "updated_at": "2026-10-03T20:46:28+05:30",
+          "taxable": false,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 45734179405913,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/43629116293209",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10582927278169,
+          "product_id": 8275701563481,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 36741523931225,
+          "alt": null,
+          "position": 1,
+          "product_id": 8275701563481,
+          "created_at": "2026-07-14T17:28:20+05:30",
+          "updated_at": "2026-08-21T03:43:43+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/28709927059545",
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsAppImage2026-07-13at5.15.04PM.jpg?v=1784030302",
+          "variant_ids": []
+        },
+        {
+          "id": 36741736235097,
+          "alt": null,
+          "position": 2,
+          "product_id": 8275701563481,
+          "created_at": "2026-07-14T17:40:47+05:30",
+          "updated_at": "2026-08-21T03:43:52+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/28710139199577",
+          "width": 1024,
+          "height": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsApp_Image_2026-07-13_at_5.15.03_PM.jpg?v=1784031048",
+          "variant_ids": []
+        },
+        {
+          "id": 36752745660505,
+          "alt": null,
+          "position": 3,
+          "product_id": 8275701563481,
+          "created_at": "2026-07-15T18:31:23+05:30",
+          "updated_at": "2026-08-21T03:48:34+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/28720894640217",
+          "width": 1024,
+          "height": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsApp_Image_2026-07-13_at_5.15.03_PM_1.jpg?v=1784120502",
+          "variant_ids": []
+        },
+        {
+          "id": 36752745726041,
+          "alt": null,
+          "position": 4,
+          "product_id": 8275701563481,
+          "created_at": "2026-07-15T18:31:24+05:30",
+          "updated_at": "2026-08-21T03:48:34+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/28720894705753",
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsApp_Image_2026-07-13_at_5.15.04_PM_1.jpg?v=1784120502",
+          "variant_ids": []
+        },
+        {
+          "id": 36752745693273,
+          "alt": null,
+          "position": 5,
+          "product_id": 8275701563481,
+          "created_at": "2026-07-15T18:31:23+05:30",
+          "updated_at": "2026-08-21T03:48:34+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/28720894672985",
+          "width": 1080,
+          "height": 1350,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsApp_Image_2026-07-13_at_5.15.05_PM.jpg?v=1784120507",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 36741523931225,
+        "alt": null,
+        "position": 1,
+        "product_id": 8275701563481,
+        "created_at": "2026-07-14T17:28:20+05:30",
+        "updated_at": "2026-08-21T03:43:43+05:30",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/28709927059545",
+        "width": 1254,
+        "height": 1254,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsAppImage2026-07-13at5.15.04PM.jpg?v=1784030302",
+        "variant_ids": []
+      },
+      "collections": []
+    },
+    {
+      "id": 8382571741273,
+      "title": "High Strength Metal Materials",
+      "body_html": "",
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-09-11T11:55:56+05:30",
+      "handle": "high-strength-metal-materials",
+      "updated_at": "2026-09-11T13:17:59+05:30",
+      "published_at": "2026-09-11T11:55:57+05:30",
+      "template_suffix": "",
+      "published_scope": "global",
+      "tags": "",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8382571741273",
+      "variants": [
+        {
+          "id": 44875665408089,
+          "product_id": 8382571741273,
+          "title": "Default Title",
+          "price": "0.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-09-11T11:55:56+05:30",
+          "updated_at": "2026-09-11T11:55:56+05:30",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": "shopify",
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 46985398059097,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/44875665408089",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10713343000665,
+          "product_id": 8382571741273,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 37296187670617,
+          "alt": null,
+          "position": 1,
+          "product_id": 8382571741273,
+          "created_at": "2026-09-11T11:55:36+05:30",
+          "updated_at": "2026-09-11T11:55:57+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/29211405844569",
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsAppImage2026-09-08at11.14.24AM.jpg?v=1789107937",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 37296187670617,
+        "alt": null,
+        "position": 1,
+        "product_id": 8382571741273,
+        "created_at": "2026-09-11T11:55:36+05:30",
+        "updated_at": "2026-09-11T11:55:57+05:30",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/29211405844569",
+        "width": 1254,
+        "height": 1254,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsAppImage2026-09-08at11.14.24AM.jpg?v=1789107937",
+        "variant_ids": []
+      },
+      "collections": []
+    },
+    {
+      "id": 8151837048921,
+      "title": "Modern victorian",
+      "body_html": "<p>This handcrafted Venetian mirror embodies timeless Italian elegance and shimmering glass that amplifies light for a luxurious feel. </p>\n<p>Made from premium 4-5mm float glass, durable MDF backing, and finishes like silver it's available in sizes from 42\"x66\" vanities according to your required dimensions statement pieces.</p>\n<p>Perfect for bathrooms, living rooms, or entryways in modern, classic, or baroque decor, it serves as a stunning focal point.</p>",
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-02-22T14:39:50+05:30",
+      "handle": "modern-victorian",
+      "updated_at": "2026-08-17T22:56:58+05:30",
+      "published_at": "2026-02-22T14:39:51+05:30",
+      "template_suffix": "",
+      "published_scope": "global",
+      "tags": "Antique mirror",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8151837048921",
+      "variants": [
+        {
+          "id": 43120234463321,
+          "product_id": 8151837048921,
+          "title": "Silver",
+          "price": "58787.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": "81502.00",
+          "option1": "Silver",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-06T01:10:10+05:30",
+          "updated_at": "2026-08-17T22:56:12+05:30",
+          "taxable": true,
+          "barcode": "",
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 45221073125465,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/43120234463321",
+          "image_id": null
+        },
+        {
+          "id": 43120234496089,
+          "product_id": 8151837048921,
+          "title": "Geometric",
+          "price": "58787.00",
+          "position": 2,
+          "inventory_policy": "deny",
+          "compare_at_price": "81502.00",
+          "option1": "Geometric",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-06T01:10:10+05:30",
+          "updated_at": "2026-08-17T22:56:59+05:30",
+          "taxable": true,
+          "barcode": "",
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 45221073158233,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/43120234496089",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10441484566617,
+          "product_id": 8151837048921,
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Silver",
+            "Geometric"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 35517131292761,
+          "alt": null,
+          "position": 1,
+          "product_id": 8151837048921,
+          "created_at": "2026-02-22T14:19:54+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548316696665",
+          "width": 2000,
+          "height": 3200,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_002716.jpg?v=1771750195",
+          "variant_ids": []
+        },
+        {
+          "id": 35517131325529,
+          "alt": null,
+          "position": 2,
+          "product_id": 8151837048921,
+          "created_at": "2026-02-22T14:19:54+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548316729433",
+          "width": 3400,
+          "height": 3200,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_002826.jpg?v=1771750197",
+          "variant_ids": []
+        },
+        {
+          "id": 35517252010073,
+          "alt": null,
+          "position": 3,
+          "product_id": 8151837048921,
+          "created_at": "2026-02-22T14:58:31+05:30",
+          "updated_at": "2026-08-20T21:10:29+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548433547353",
+          "width": 937,
+          "height": 1238,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_145713.jpg?v=1771752542",
+          "variant_ids": []
+        },
+        {
+          "id": 35517131423833,
+          "alt": null,
+          "position": 4,
+          "product_id": 8151837048921,
+          "created_at": "2026-02-22T14:19:54+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548316827737",
+          "width": 800,
+          "height": 1280,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/1771695954861.webp?v=1771752542",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 35517131292761,
+        "alt": null,
+        "position": 1,
+        "product_id": 8151837048921,
+        "created_at": "2026-02-22T14:19:54+05:30",
+        "updated_at": "2026-08-20T21:10:28+05:30",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/27548316696665",
+        "width": 2000,
+        "height": 3200,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_002716.jpg?v=1771750195",
+        "variant_ids": []
+      },
+      "collections": [
+        {
+          "id": 465288200281,
+          "title": "Venetian",
+          "handle": "venetian-mirror"
+        }
+      ]
+    },
+    {
+      "id": 8159346786393,
+      "title": "Mosaic mirror art",
+      "body_html": "<p>Add a bold, avant-garde statement to your space with our Reflective Stallion. This isn’t just wall art; it’s a conversation piece. Each piece is meticulously hand-assembled using shattered mirror fragments to form the powerful silhouette of a horse against a deep, textured midnight-black canvas.</p>\n<p>Because of the mosaic technique, the artwork \"changes\" throughout the day. As the sun moves or your room lights dim, the mirror shards catch the light from different angles, bringing a sense of life and motion to the stallion</p>\n<p> </p>\n<p><b>Safety Disclaimer:</b> Since this is \"broken DIY mirror\" art, be sure to include a small note that the edges are sealed (if they are) or that it is intended for decorative display out of reach of children.</p>",
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-03-06T00:16:26+05:30",
+      "handle": "mosaic-mirror-art",
+      "updated_at": "2026-10-03T20:46:30+05:30",
+      "published_at": "2026-03-06T00:16:28+05:30",
+      "template_suffix": "",
+      "published_scope": "global",
+      "tags": "Antique mirror, Poster",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8159346786393",
+      "variants": [
+        {
+          "id": 43120228827225,
+          "product_id": 8159346786393,
+          "title": "24\" x 30\" / Poster / Wood",
+          "price": "2500.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": "5000.00",
+          "option1": "24\" x 30\"",
+          "option2": "Poster",
+          "option3": "Wood",
+          "created_at": "2026-03-06T01:08:57+05:30",
+          "updated_at": "2026-10-03T20:46:17+05:30",
+          "taxable": true,
+          "barcode": "",
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": false,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 45221067489369,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/43120228827225",
+          "image_id": null
+        },
+        {
+          "id": 43120260055129,
+          "product_id": 8159346786393,
+          "title": "42\" x 48\" / Poster / Wood",
+          "price": "7500.00",
+          "position": 2,
+          "inventory_policy": "deny",
+          "compare_at_price": "5000.00",
+          "option1": "42\" x 48\"",
+          "option2": "Poster",
+          "option3": "Wood",
+          "created_at": "2026-03-06T01:23:56+05:30",
+          "updated_at": "2026-08-17T22:56:12+05:30",
+          "taxable": true,
+          "barcode": "",
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": false,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 45221098815577,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/43120260055129",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10441492496473,
+          "product_id": 8159346786393,
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "24\" x 30\"",
+            "42\" x 48\""
+          ]
+        },
+        {
+          "id": 10441483157593,
+          "product_id": 8159346786393,
+          "name": "Frame style",
+          "position": 2,
+          "values": [
+            "Poster"
+          ]
+        },
+        {
+          "id": 10441483190361,
+          "product_id": 8159346786393,
+          "name": "Artwork frame material",
+          "position": 3,
+          "values": [
+            "Wood"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 35617449312345,
+          "alt": null,
+          "position": 1,
+          "product_id": 8159346786393,
+          "created_at": "2026-03-06T00:13:10+05:30",
+          "updated_at": "2026-08-20T21:26:00+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27643112816729",
+          "width": 1496,
+          "height": 1852,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260305_220825.jpg?v=1772736192",
+          "variant_ids": []
+        },
+        {
+          "id": 35617517174873,
+          "alt": null,
+          "position": 2,
+          "product_id": 8159346786393,
+          "created_at": "2026-03-06T00:13:49+05:30",
+          "updated_at": "2026-08-20T21:26:00+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27643176321113",
+          "width": 736,
+          "height": 1066,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/c7fff0389915c41086ec3fab19d4037e.jpg?v=1772736231",
+          "variant_ids": []
+        },
+        {
+          "id": 35617536049241,
+          "alt": null,
+          "position": 3,
+          "product_id": 8159346786393,
+          "created_at": "2026-03-06T00:14:03+05:30",
+          "updated_at": "2026-08-20T21:26:00+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27643201912921",
+          "width": 896,
+          "height": 1195,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/1772728255442.png?v=1772739004",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 35617449312345,
+        "alt": null,
+        "position": 1,
+        "product_id": 8159346786393,
+        "created_at": "2026-03-06T00:13:10+05:30",
+        "updated_at": "2026-08-20T21:26:00+05:30",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/27643112816729",
+        "width": 1496,
+        "height": 1852,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260305_220825.jpg?v=1772736192",
+        "variant_ids": []
+      },
+      "collections": [
+        {
+          "id": 464998793305,
+          "title": "Diy glass",
+          "handle": "diy-glass-mirror"
+        }
+      ]
+    },
+    {
+      "id": 9522606932057,
+      "title": "Partial Payment",
+      "body_html": null,
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-09-30T13:27:54+05:30",
+      "handle": "partial-payment",
+      "updated_at": "2026-09-30T13:28:40+05:30",
+      "published_at": "2026-09-30T13:27:54+05:30",
+      "template_suffix": null,
+      "published_scope": "web",
+      "tags": "",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/9522606932057",
+      "variants": [
+        {
+          "id": 47352609177689,
+          "product_id": 9522606932057,
+          "title": "PartPayment",
+          "price": "0.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "PartPayment",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-09-30T13:27:55+05:30",
+          "updated_at": "2026-09-30T13:27:55+05:30",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 49458670633049,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/47352609177689",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 11843898474585,
+          "product_id": 9522606932057,
+          "name": "Payment Type",
+          "position": 1,
+          "values": [
+            "PartPayment"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null,
+      "collections": []
+    },
+    {
+      "id": 9516680183897,
+      "title": "Premium Upholstered Frame",
+      "body_html": "",
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-09-25T12:56:37+05:30",
+      "handle": "premium-upholstered-frame",
+      "updated_at": "2026-09-25T12:57:16+05:30",
+      "published_at": "2026-09-25T12:56:38+05:30",
+      "template_suffix": "",
+      "published_scope": "global",
+      "tags": "",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/9516680183897",
+      "variants": [
+        {
+          "id": 47330054733913,
+          "product_id": 9516680183897,
+          "title": "Default Title",
+          "price": "0.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-09-25T12:56:37+05:30",
+          "updated_at": "2026-09-25T12:56:37+05:30",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": "shopify",
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 49436058320985,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/47330054733913",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 11836671852633,
+          "product_id": 9516680183897,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 37408849100889,
+          "alt": null,
+          "position": 1,
+          "product_id": 9516680183897,
+          "created_at": "2026-09-25T12:54:28+05:30",
+          "updated_at": "2026-09-25T12:56:38+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/41112252874841",
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsAppImage2026-09-18at3.57.23PM.jpg?v=1790321070",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 37408849100889,
+        "alt": null,
+        "position": 1,
+        "product_id": 9516680183897,
+        "created_at": "2026-09-25T12:54:28+05:30",
+        "updated_at": "2026-09-25T12:56:38+05:30",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/41112252874841",
+        "width": 1254,
+        "height": 1254,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/WhatsAppImage2026-09-18at3.57.23PM.jpg?v=1790321070",
+        "variant_ids": []
+      },
+      "collections": []
+    },
+    {
+      "id": 8150289121369,
+      "title": "Rococo floral",
+      "body_html": "<p>This handcrafted Venetian mirror embodies timeless Italian elegance and shimmering glass that amplifies light for a luxurious feel. </p>\n<p>Made from premium 4-5mm float glass, durable MDF backing, and finishes like silver it's available in sizes from 24\"x36\" vanities according to your required dimensions statement pieces.</p>\n<p>Perfect for bathrooms, living rooms, or entryways in modern, classic, or baroque decor, it serves as a stunning focal point.</p>",
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-02-20T00:46:45+05:30",
+      "handle": "venetian-mirror",
+      "updated_at": "2026-08-17T22:56:13+05:30",
+      "published_at": "2026-02-20T00:46:47+05:30",
+      "template_suffix": "",
+      "published_scope": "global",
+      "tags": "",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8150289121369",
+      "variants": [
+        {
+          "id": 43085472006233,
+          "product_id": 8150289121369,
+          "title": "Default Title",
+          "price": "14000.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": "18520.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-02-20T00:46:46+05:30",
+          "updated_at": "2026-08-17T22:56:13+05:30",
+          "taxable": false,
+          "barcode": "",
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 45185322418265,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/43085472006233",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10432099975257,
+          "product_id": 8150289121369,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 35516320317529,
+          "alt": null,
+          "position": 1,
+          "product_id": 8150289121369,
+          "created_at": "2026-02-22T09:35:06+05:30",
+          "updated_at": "2026-08-20T21:10:16+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27547560378457",
+          "width": 3456,
+          "height": 3456,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_092621.jpg?v=1771733529",
+          "variant_ids": []
+        },
+        {
+          "id": 35516320284761,
+          "alt": null,
+          "position": 2,
+          "product_id": 8150289121369,
+          "created_at": "2026-02-22T09:35:06+05:30",
+          "updated_at": "2026-08-20T21:10:16+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27547560345689",
+          "width": 3432,
+          "height": 3432,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_092831.jpg?v=1771733529",
+          "variant_ids": []
+        },
+        {
+          "id": 35503512846425,
+          "alt": null,
+          "position": 3,
+          "product_id": 8150289121369,
+          "created_at": "2026-02-20T00:26:50+05:30",
+          "updated_at": "2026-08-20T21:07:40+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27535727657049",
+          "width": 900,
+          "height": 1350,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/IMG-20260117-WA0048_1.jpg?v=1771733529",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 35516320317529,
+        "alt": null,
+        "position": 1,
+        "product_id": 8150289121369,
+        "created_at": "2026-02-22T09:35:06+05:30",
+        "updated_at": "2026-08-20T21:10:16+05:30",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/27547560378457",
+        "width": 3456,
+        "height": 3456,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_092621.jpg?v=1771733529",
+        "variant_ids": []
+      },
+      "collections": [
+        {
+          "id": 465288200281,
+          "title": "Venetian",
+          "handle": "venetian-mirror"
+        }
+      ]
+    },
+    {
+      "id": 8151836131417,
+      "title": "Silver Crown framed",
+      "body_html": "<p>This handcrafted Venetian mirror embodies timeless Italian elegance and shimmering glass that amplifies light for a luxurious feel. </p>\n<p><br></p>\n<p>Made from premium 4-5mm float glass, durable MDF backing, and finishes like silver it's available in sizes from 26\"x40\" vanities according to your required dimensions statement pieces.</p>\n<p><br></p>\n<p>Perfect for bathrooms, living rooms, or entryways in modern, classic, or baroque decor, it serves as a stunning focal point.</p>",
+      "vendor": "Reflection Elite",
+      "product_type": "",
+      "created_at": "2026-02-22T14:00:32+05:30",
+      "handle": "silver-crown-framed",
+      "updated_at": "2026-09-11T17:14:10+05:30",
+      "published_at": "2026-02-22T14:00:33+05:30",
+      "template_suffix": "",
+      "published_scope": "global",
+      "tags": "",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8151836131417",
+      "variants": [
+        {
+          "id": 43089542119513,
+          "product_id": 8151836131417,
+          "title": "Default Title",
+          "price": "35900.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": "38137.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-02-22T14:00:32+05:30",
+          "updated_at": "2026-09-11T17:14:11+05:30",
+          "taxable": false,
+          "barcode": "",
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 45189555814489,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/43089542119513",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10432151748697,
+          "product_id": 8151836131417,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 35517072113753,
+          "alt": null,
+          "position": 1,
+          "product_id": 8151836131417,
+          "created_at": "2026-02-22T13:50:41+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548261253209",
+          "width": 3456,
+          "height": 2964,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260221_235950.webp?v=1771748442",
+          "variant_ids": []
+        },
+        {
+          "id": 35517072146521,
+          "alt": null,
+          "position": 2,
+          "product_id": 8151836131417,
+          "created_at": "2026-02-22T13:50:41+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548261285977",
+          "width": 3456,
+          "height": 3456,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_000512.webp?v=1771748442",
+          "variant_ids": []
+        },
+        {
+          "id": 35517072080985,
+          "alt": null,
+          "position": 3,
+          "product_id": 8151836131417,
+          "created_at": "2026-02-22T13:50:40+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548261220441",
+          "width": 1716,
+          "height": 1760,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260222_000109.webp?v=1771748442",
+          "variant_ids": []
+        },
+        {
+          "id": 35517072048217,
+          "alt": null,
+          "position": 4,
+          "product_id": 8151836131417,
+          "created_at": "2026-02-22T13:50:40+05:30",
+          "updated_at": "2026-08-20T21:10:28+05:30",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/27548261187673",
+          "width": 880,
+          "height": 1216,
+          "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/1771692695124.webp?v=1771748442",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 35517072113753,
+        "alt": null,
+        "position": 1,
+        "product_id": 8151836131417,
+        "created_at": "2026-02-22T13:50:41+05:30",
+        "updated_at": "2026-08-20T21:10:28+05:30",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/27548261253209",
+        "width": 3456,
+        "height": 2964,
+        "src": "https://cdn.shopify.com/s/files/1/0718/6304/2137/files/20260221_235950.webp?v=1771748442",
+        "variant_ids": []
+      },
+      "collections": [
+        {
+          "id": 465288200281,
+          "title": "Venetian",
+          "handle": "venetian-mirror"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": 134275104857,
+      "title": "About Us",
+      "shop_id": 71863042137,
+      "handle": "about-us",
+      "body_html": "",
+      "author": null,
+      "created_at": "2026-06-04T17:41:29+05:30",
+      "updated_at": "2026-06-04T17:56:22+05:30",
+      "published_at": "2026-06-04T17:44:49+05:30",
+      "template_suffix": "Default page",
+      "admin_graphql_api_id": "gid://shopify/Page/134275104857"
+    },
+    {
+      "id": 130253979737,
+      "title": "Contact",
+      "shop_id": 71863042137,
+      "handle": "contact",
+      "body_html": null,
+      "author": null,
+      "created_at": "2026-02-01T13:26:01+05:30",
+      "updated_at": "2026-02-01T13:26:01+05:30",
+      "published_at": "2026-02-01T13:26:01+05:30",
+      "template_suffix": "contact",
+      "admin_graphql_api_id": "gid://shopify/Page/130253979737"
+    }
+  ]
+}

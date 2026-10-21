@@ -1,0 +1,262 @@
+{
+  "timestamp": "2026-10-18T08:04:27.893Z",
+  "categories": {
+    "Backup & Security": [
+      {
+        "name": "Production Pre-Swap Backup Present & Restorable",
+        "passed": true,
+        "details": {
+          "backupDirExists": true,
+          "manifestFound": true,
+          "backedUpPagesCount": 10
+        }
+      },
+      {
+        "name": "Credentials Redacted from Script Source",
+        "passed": true,
+        "details": {
+          "checkedFiles": 315,
+          "hardcodedCredentialsExposed": false
+        }
+      }
+    ],
+    "Product Integrity": [
+      {
+        "name": "All 7 Frozen Products Unmodified on Live Store",
+        "passed": true,
+        "details": {
+          "expectedCount": 7,
+          "liveWcProductsCount": 8,
+          "allMatched": true
+        }
+      }
+    ],
+    "Content Integrity": [
+      {
+        "name": "Page 50 [about-us] Copy Preserved",
+        "passed": true,
+        "details": {
+          "contentLength": 39897,
+          "keyPhraseVerified": true
+        }
+      },
+      {
+        "name": "Page 52 [contact] Copy Preserved",
+        "passed": true,
+        "details": {
+          "contentLength": 39941,
+          "keyPhraseVerified": true
+        }
+      },
+      {
+        "name": "Page 102 [privacy-policy-2] Copy Preserved",
+        "passed": true,
+        "details": {
+          "contentLength": 33500,
+          "keyPhraseVerified": true
+        }
+      },
+      {
+        "name": "Page 103 [refund_returns-2] Copy Preserved",
+        "passed": true,
+        "details": {
+          "contentLength": 33477,
+          "keyPhraseVerified": true
+        }
+      },
+      {
+        "name": "Page 120 [custom-dimensions] Copy Preserved",
+        "passed": true,
+        "details": {
+          "contentLength": 33457,
+          "keyPhraseVerified": true
+        }
+      }
+    ],
+    "Header 5-Tier Replication": [
+      {
+        "name": "Tier 1 Marquee Scrolling Ticker Active",
+        "passed": true,
+        "details": {
+          "text": "FREE SHIPPING 📦"
+        }
+      },
+      {
+        "name": "Tier 2 Main Row (Hamburger, Logo, Cart)",
+        "passed": true,
+        "details": {
+          "hamburger": true,
+          "logoNaturalWidth": true,
+          "cartText": true
+        }
+      },
+      {
+        "name": "Tier 3 Gold Announcement Strip Present",
+        "passed": true,
+        "details": {
+          "text": "FREE COMPREHENSIVE ON-SITE CONSULTATION..."
+        }
+      },
+      {
+        "name": "Tier 4 Desktop Nav Row Links (7 Links Exact)",
+        "passed": true,
+        "details": {
+          "navLinks": [
+            "HOME",
+            "COLLECTIONS (7)",
+            "MURANA SHOWCASE",
+            "ABOUT US",
+            "CONTACT",
+            "POLICIES",
+            "CART"
+          ]
+        }
+      },
+      {
+        "name": "Tier 5 Outlined Book Survey Button Present",
+        "passed": true,
+        "details": {
+          "text": "BOOK SURVEY",
+          "link": "https://reflectionelite.com/custom-dimensions/"
+        }
+      }
+    ],
+    "Shine Effect": [
+      {
+        "name": "CSS-only @keyframes shine-sweep Applied",
+        "passed": true,
+        "details": {
+          "animationName": "shine-sweep",
+          "duration": "5s"
+        }
+      },
+      {
+        "name": "Container Overflow Hidden & Safe Clipping",
+        "passed": true,
+        "details": {
+          "overflow": "hidden"
+        }
+      },
+      {
+        "name": "Pointer Events None (Cards & Buttons Clickable)",
+        "passed": true,
+        "details": {
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "Staggered Delay Animation Loops",
+        "passed": true,
+        "details": {
+          "delays": [
+            "0s",
+            "1.2s",
+            "2.4s",
+            "3.6s"
+          ]
+        }
+      }
+    ],
+    "Mobile Optimization": [
+      {
+        "name": "Mobile 375px Desktop Nav Hidden & Zero Overflow",
+        "passed": true,
+        "details": {
+          "desktopNavHidden": true,
+          "horizontalOverflow": false
+        }
+      },
+      {
+        "name": "Mobile 375px Drawer Open & >=48px Tap Targets",
+        "passed": true,
+        "details": {
+          "drawerVisible": true,
+          "allTapTargets48pxPlus": true,
+          "sampleHeights": [
+            50,
+            50,
+            50
+          ]
+        }
+      },
+      {
+        "name": "Mobile 375px Click Outside Auto-Close",
+        "passed": true,
+        "details": {
+          "closed": true
+        }
+      },
+      {
+        "name": "Mobile 375px Product Grid 1-Column Stacking",
+        "passed": true,
+        "details": {
+          "columns": 1,
+          "firstCardWidth": 343,
+          "horizontalOverflow": false
+        }
+      },
+      {
+        "name": "Mobile 390px Desktop Nav Hidden & Zero Overflow",
+        "passed": true,
+        "details": {
+          "desktopNavHidden": true,
+          "horizontalOverflow": false
+        }
+      },
+      {
+        "name": "Mobile 390px Drawer Open & >=48px Tap Targets",
+        "passed": true,
+        "details": {
+          "drawerVisible": true,
+          "allTapTargets48pxPlus": true,
+          "sampleHeights": [
+            50,
+            50,
+            50
+          ]
+        }
+      },
+      {
+        "name": "Mobile 390px Click Outside Auto-Close",
+        "passed": true,
+        "details": {
+          "closed": true
+        }
+      },
+      {
+        "name": "Mobile 390px Product Grid 1-Column Stacking",
+        "passed": true,
+        "details": {
+          "columns": 1,
+          "firstCardWidth": 358,
+          "horizontalOverflow": false
+        }
+      }
+    ],
+    "E-Commerce Architecture": [
+      {
+        "name": "Cart Page [woocommerce_cart] Shortcode Functional",
+        "passed": true,
+        "details": {
+          "tablePresent": true,
+          "itemCount": 1,
+          "productName": "Customised Mirror",
+          "total": "₹100.00"
+        }
+      },
+      {
+        "name": "Checkout [woocommerce_checkout] & Gateways Active",
+        "passed": true,
+        "details": {
+          "reviewPresent": true,
+          "gateways": [
+            "cod",
+            "razorpay",
+            "re_bitcoin"
+          ],
+          "total": "₹95.00"
+        }
+      }
+    ]
+  }
+}

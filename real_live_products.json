@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1794,
+    "name": "Murana Mirror",
+    "price": "16000000",
+    "regular_price": "18000000",
+    "sale_price": "16000000",
+    "categories": [],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/05/23952812_master.jpg"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/murana-mirror/"
+  },
+  {
+    "id": 1132,
+    "name": "Antique venetian cushion",
+    "price": "3150000",
+    "regular_price": "4330000",
+    "sale_price": "3150000",
+    "categories": [
+      {
+        "id": 29,
+        "name": "Venetian mirror",
+        "slug": "venetian-mirror"
+      }
+    ],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/1771694577552-2.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/1771694915076.jpg",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/1771694849916.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/antique-venetian-cushion-mirror-c1910-20_10246_pic3_size4.jpg",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/antique-venetian-cushion-mirror-c1910-20_10246_pic4_size4.webp"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/antique-venetian-cushion-2/"
+  },
+  {
+    "id": 1127,
+    "name": "Modern victorian",
+    "price": "5878700",
+    "regular_price": "8150200",
+    "sale_price": "5878700",
+    "categories": [
+      {
+        "id": 29,
+        "name": "Venetian mirror",
+        "slug": "venetian-mirror"
+      }
+    ],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_002716.jpg",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_002826.jpg",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_145713.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/1771695954861.webp"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/modern-victorian-2/"
+  },
+  {
+    "id": 1121,
+    "name": "Rococo floral",
+    "price": "1400000",
+    "regular_price": "1852000",
+    "sale_price": "1400000",
+    "categories": [
+      {
+        "id": 29,
+        "name": "Venetian mirror",
+        "slug": "venetian-mirror"
+      }
+    ],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_092621-1.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/IMG-20260117-WA0048_1-1.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_092831-1.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_092621-1-1.webp"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/rococo-floral-2/"
+  },
+  {
+    "id": 1115,
+    "name": "Silver Crown framed",
+    "price": "2817500",
+    "regular_price": "3813700",
+    "sale_price": "2817500",
+    "categories": [
+      {
+        "id": 29,
+        "name": "Venetian mirror",
+        "slug": "venetian-mirror"
+      }
+    ],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260221_235950-1.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/1771692695124.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_000109.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_000512.webp"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/silver-crown-framed/"
+  },
+  {
+    "id": 586,
+    "name": "Rococo Floral",
+    "price": "1400000",
+    "regular_price": "1400000",
+    "sale_price": "1400000",
+    "categories": [],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_092621-scaled.webp"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/rococo-floral/"
+  },
+  {
+    "id": 451,
+    "name": "Mosaic mirror art",
+    "price": "250000",
+    "regular_price": "500000",
+    "sale_price": "250000",
+    "categories": [
+      {
+        "id": 28,
+        "name": "Diy glass mirror",
+        "slug": "diy-glass-mirror"
+      }
+    ],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260305_220825.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/1772728255442.webp",
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/722ea776f6824440a68312c3ac5364f2.thumbnail.0000000000.webp"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/mosaic-mirror-art/"
+  },
+  {
+    "id": 288,
+    "name": "Modern victorian",
+    "price": "0",
+    "regular_price": "0",
+    "sale_price": "0",
+    "categories": [],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/20260222_002716.webp"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/modern-victorian/"
+  },
+  {
+    "id": 279,
+    "name": "Antique venetian cushion",
+    "price": "3150000",
+    "regular_price": "3150000",
+    "sale_price": "3150000",
+    "categories": [],
+    "images": [
+      "https://reflectionelite.ataanalytiq.com/wp-content/uploads/2026/04/1771694577552.webp"
+    ],
+    "permalink": "https://reflectionelite.ataanalytiq.com/product/antique-venetian-cushion/"
+  }
+]

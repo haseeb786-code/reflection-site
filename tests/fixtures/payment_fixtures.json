@@ -1,0 +1,75 @@
+{
+  "gateways": {
+    "cod": {
+      "id": "cod",
+      "title": "Cash on Delivery",
+      "enabled": true,
+      "standard_threshold": 10000.00,
+      "max_safety_threshold": 30000.00,
+      "fragile_policy_notice": "For handcrafted fragile mirrors over ₹10,000–₹30,000, 100% online prepayment or deposit is required to prevent wooden crate transit refusal losses.",
+      "test_scenarios": [
+        { "amount": 0.00, "cod_allowed": false, "reason": "Zero amount requires free order flow" },
+        { "amount": 2500.00, "cod_allowed": true, "reason": "Well below threshold" },
+        { "amount": 7500.00, "cod_allowed": true, "reason": "Within ₹10,000 standard threshold" },
+        { "amount": 10000.00, "cod_allowed": true, "reason": "Exactly at ₹10,000 boundary" },
+        { "amount": 10001.00, "cod_allowed": false, "reason": "Exceeds ₹10,000 default threshold" },
+        { "amount": 28000.00, "cod_allowed": true, "threshold": 30000.00, "reason": "Within ₹30,000 extended threshold" },
+        { "amount": 30000.00, "cod_allowed": true, "threshold": 30000.00, "reason": "Exactly at ₹30,000 max ceiling" },
+        { "amount": 30001.00, "cod_allowed": false, "threshold": 30000.00, "reason": "Strictly exceeds ₹30,000 upper ceiling" },
+        { "amount": 58787.00, "cod_allowed": false, "reason": "Modern Victorian luxury tier" },
+        { "amount": 81500.00, "cod_allowed": false, "reason": "Antique Venetian cushion ultra-luxury tier" }
+      ]
+    },
+    "razorpay": {
+      "id": "razorpay",
+      "title": "Credit Card/Debit Card/NetBanking/UPI",
+      "enabled": true,
+      "test_mode": true,
+      "test_key_prefix": "rzp_test_",
+      "live_key_prefix": "rzp_live_",
+      "webhook_endpoint": "/?wc-api=WC_Razorpay",
+      "supported_methods": [
+        "upi",
+        "card",
+        "netbanking",
+        "wallet"
+      ],
+      "upi_providers": [
+        "Google Pay",
+        "PhonePe",
+        "Paytm",
+        "BHIM",
+        "UPI Intent",
+        "UPI QR"
+      ],
+      "card_networks": [
+        "RuPay",
+        "Visa",
+        "MasterCard",
+        "American Express"
+      ],
+      "sample_webhook_payload": {
+        "entity": "event",
+        "account_id": "acc_mock_reflectionelite",
+        "event": "payment.captured",
+        "contains": ["payment"],
+        "payload": {
+          "payment": {
+            "entity": {
+              "id": "pay_test_mirror_9999",
+              "amount": 8150000,
+              "currency": "INR",
+              "status": "captured",
+              "order_id": "order_mock_12345",
+              "method": "upi",
+              "vpa": "customer@okhdfcbank",
+              "email": "customer@example.com",
+              "contact": "+919820012345"
+            }
+          }
+        },
+        "created_at": 1776260000
+      }
+    }
+  }
+}
