@@ -2,14 +2,21 @@ import puppeteer from 'puppeteer-core';
 import fs from 'fs';
 import path from 'path';
 
-const ARTIFACT_DIR = 'C:\\Users\\haseeb\\.gemini\\antigravity\\brain\\641f7758-bd1c-45d5-8dcf-d4bf4b9f2c63';
+const ARTIFACT_DIR = 'C:\\Users\\haseeb\\.gemini\\antigravity\\brain\\0cc2f0e9-4ca2-41a7-adfe-d3da5cc4ba19';
+const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 
 async function verify() {
-  console.log('Launching Chrome to verify Category Showcase at 1440px and 1920px...');
+  console.log('Launching Chrome with anti-bot bypass to verify Category Showcase at 1440px and 1920px...');
   const browser = await puppeteer.launch({
-    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    executablePath: CHROME_PATH,
     headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-blink-features=AutomationControlled',
+      '--incognito'
+    ],
+    ignoreDefaultArgs: ['--enable-automation']
   });
 
   const VIEWPORTS = [
@@ -21,14 +28,25 @@ async function verify() {
   if (!fs.existsSync(ARTIFACT_DIR)) fs.mkdirSync(ARTIFACT_DIR, { recursive: true });
 
   for (const vp of VIEWPORTS) {
-    const page = await browser.newPage();
+    const context = await browser.createBrowserContext();
+    const page = await context.newPage();
     await page.setViewport({ width: vp.width, height: vp.height, deviceScaleFactor: 1 });
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36');
 
     const targetUrl = `https://reflectionelite.com/?nocache=${Date.now()}`;
     console.log(`\nNavigating at ${vp.name}px to:`, targetUrl);
-    await page.goto(targetUrl, { waitUntil: 'networkidle2', timeout: 60000 });
-    await new Promise(r => setTimeout(r, 1500));
+    await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
+
+    let title = await page.title();
+    if (title.includes('Just a moment') || title.includes('Checking your browser')) {
+      console.log('Waiting for Hostinger challenge to pass...');
+      for (let i = 0; i < 10; i++) {
+        await new Promise(r => setTimeout(r, 1500));
+        title = await page.title();
+        if (!title.includes('Just a moment') && !title.includes('Checking your browser')) break;
+      }
+    }
+    await new Promise(r => setTimeout(r, 2000));
 
     const audit = await page.evaluate(() => {
       const section = document.querySelector('#teCatShowcase, .te-cat-showcase-section');
@@ -77,7 +95,7 @@ async function verify() {
         const artifactPath = path.resolve(ARTIFACT_DIR, `category_showcase_${vp.name}.png`);
         await sectionEl.screenshot({ path: localPath });
         fs.copyFileSync(localPath, artifactPath);
-        console.log(`Saved ${vp.name}px screenshot to:`, artifactPath);
+        console.log(`✓ Saved ${vp.name}px screenshot to:`, artifactPath);
       }
     } else {
       console.log('Category showcase section NOT found!');
